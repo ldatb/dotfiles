@@ -99,8 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
- SPACESHIP_PROMPT_ORDER=(
+
+SPACESHIP_PROMPT_ORDER=(
   user          # Username section
   dir           # Current directory section
   host          # Hostname section
@@ -108,7 +108,6 @@ source $ZSH/oh-my-zsh.sh
   hg            # Mercurial section (hg_branch  + hg_status)
   exec_time     # Execution time
   line_sep      # Line break
-  vi_mode       # Vi-mode indicator
   jobs          # Background jobs indicator
   exit_code     # Exit code section
   char          # Prompt character
@@ -117,8 +116,6 @@ SPACESHIP_USER_SHOW=always
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SYMBOL="❯"
 SPACESHIP_CHAR_SUFFIX=" "
-
-
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -142,26 +139,10 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 ### End of Zinit's installer chunk
-
 zinit light zdharma/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
-
-### Global Aliases
-source $HOME/.aliases
-
-### Work Aliases
-alias vpnwron='globalprotect connect -p wr-ven-2.windriver.com -u ldeataid'
-alias vpnwroff='globalprotect disconnect'
-alias vpnwrstatus='globalprotect show --status'
-alias fixroute='sudo ip route change 10.127.20.0/24 via 10.227.130.1 && sudo ip route change 10.127.130.0/24 via 10.227.130.1 && sudo ip route change 10.127.140.0/24 via 10.227.130.1' 
-alias javaws='/usr/lib/jvm/jdk1.8.0_291/jre/bin/javaws'
-alias xstudio='/usr/lib/jvm/jdk1.8.0_291/jre/bin/javaws ~/Documents/windriver/apps/xstudio.jnlp'
-alias kubectl='microk8s kubectl'
-
-### CGCS AUto
-export PYTHONPATH="/Documents/windriver/repos/cgcs/CGCSAuto"
-
-### Marker
-[[ -s "$HOME/.local/share/marker/marker.sh" ]] && source "$HOME/.local/share/marker/marker.sh"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+### Aliases
+source $HOME/.aliases
