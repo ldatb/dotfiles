@@ -26,7 +26,12 @@ alias gt='git ls-tree -r "$(git rev-parse --abbrev-ref HEAD)" --name-only | tree
 
 # tmux
 alias t='tmux'
+alias tn='tmux new -s'
 alias ta='tmux attach'
+alias tas='tmux attach -t'
+alias td='tmux detach'
+alias tls='tmux ls'
+alias tk='tmux kill-session -t'
 
 # less
 alias less='less --raw-control-chars'
