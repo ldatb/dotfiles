@@ -94,24 +94,25 @@ scrolling:
 #tabspaces: 8
 
 # Font configuration
-# font:
-#   # Normal (roman) font face
-#   normal:
-#     # Font family
-#     #
-#     # Default:
-#     #   - (macOS) Menlo
-#     #   - (Linux/BSD) monospace
-#     #   - (Windows) Consolas
-#     # family: Source Code Pro
-#     # family: CodeNewRoman Nerd Font
-#     # family: RobotoMono Nerd Font
-#     # family: Hack
-#     family: JetBrains Mono
-#     # family: UbuntuMono Nerd Font
-#     # family: Monofur Nerd Font
-#     # family: TerminessTTF Nerd Font
-#     # family: Mononoki Nerd Font
+font:
+  # Normal (roman) font face
+  normal:
+    # Font family
+    #
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    # family: Source Code Pro
+    # family: CodeNewRoman Nerd Font
+    # family: RobotoMono Nerd Font
+    # family: Hack
+    # family: JetBrains Mono
+    # family: UbuntuMono Nerd Font
+    # family: Monofur Nerd Font
+    # family: TerminessTTF Nerd Font
+    # family: Mononoki Nerd Font
+    family: "MesloLGS NF"
 
 #     # The `style` can be specified to pick a specific face.
 #     style: Regular
