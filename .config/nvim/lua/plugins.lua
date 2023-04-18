@@ -42,5 +42,6 @@ return require('packer').startup(function(use)
     "MunifTanjim/nui.nvim",
     }
   })
-end)
 
+  use "lukas-reineke/indent-blankline.nvim"
+end)
