@@ -100,23 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-SPACESHIP_PROMPT_ORDER=(
-  user          # Username section
-  dir           # Current directory section
-  host          # Hostname section
-  git           # Git section (git_branch + git_status)
-  hg            # Mercurial section (hg_branch  + hg_status)
-  exec_time     # Execution time
-  line_sep      # Line break
-  jobs          # Background jobs indicator
-  exit_code     # Exit code section
-  char          # Prompt character
-)
-SPACESHIP_USER_SHOW=always
-SPACESHIP_PROMPT_ADD_NEWLINE=false
-SPACESHIP_CHAR_SYMBOL="❯"
-SPACESHIP_CHAR_SUFFIX=" "
-
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
