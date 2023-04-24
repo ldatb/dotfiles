@@ -42,3 +42,8 @@ alias less='less --raw-control-chars'
 
 # diff
 alias diff='git diff --no-index'
+
+# navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
