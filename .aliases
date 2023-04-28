@@ -43,6 +43,9 @@ alias less='less --raw-control-chars'
 # diff
 alias diff='git diff --no-index'
 
+# minikube
+alias kubectl="minikube kubectl --"
+
 # navigation
 alias ..='cd ..'
 alias ...='cd ../..'
