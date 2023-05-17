@@ -4,7 +4,7 @@
 
 vim.opt.scrolloff = 3               -- Keep 3 lines when scrolling
 vim.opt.cmdheight = 2               -- Make command line two lines high
-vim.opt.autoindent = true           -- Always set autoindenting on
+vim.opt.autoindent = false           -- Always set autoindenting on
 vim.opt.visualbell = true           -- Use visual bell instead of beeping
 vim.opt.backup = false              -- Do not keep a backup filset noswapfile
 vim.opt.swapfile = false            -- Do not create a swap file
@@ -18,7 +18,7 @@ vim.opt.showmode = false            -- Hide the default mode text
 vim.opt.shortmess:append("c")       -- Abbreviate messages
 vim.opt.matchpairs:append("<:>")    -- Show matching <> (html mainly) as well
 vim.opt.showmatch = true            -- Show matching braces, somewhat annoying...
-vim.opt.matchtime = 3               -- Tenths of a second to show the matching paren
+vim.opt.matchtime = 3               -- Tenths of a second to show the matching parent
 vim.opt.modelines = 0               -- No modlines for security
 vim.opt.splitright = true           -- Open vertical split to the right
 
@@ -69,3 +69,7 @@ vim.api.nvim_create_autocmd("QuickFixCmdPost", {
   pattern = "*grep*",
   command = "cwindow"
 })
+
+-- Copy line to system
+vim.api.nvim_set_option("clipboard","unnamed")
+

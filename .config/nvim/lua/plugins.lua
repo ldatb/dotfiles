@@ -4,24 +4,25 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  use {
-    'nvim-treesitter/nvim-treesitter',
-    run = function()
-        local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
-        ts_update()
-    end,
-  }
+  -- Tokyo Night theme
+  use 'folke/tokyonight.nvim'
 
+  -- treesitter
+  use 'nvim-treesitter/nvim-treesitter'
+
+  -- telescope
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.1',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- telescope-file-broswer
   use {
     "nvim-telescope/telescope-file-browser.nvim",
     requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
   }
 
+  -- noice
   use 'MunifTanjim/nui.nvim'
   use({
   "folke/noice.nvim",
@@ -48,8 +49,13 @@ return require('packer').startup(function(use)
     }
   })
 
+  -- auto-close
+  use 'm4xshen/autoclose.nvim'
+
+  -- indent-blankline
   use "lukas-reineke/indent-blankline.nvim"
 
+  -- LSP
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v1.x',
@@ -75,4 +81,8 @@ return require('packer').startup(function(use)
       {'rafamadriz/friendly-snippets'},
     }
   }
+
+  -- git signs
+  use 'lewis6991/gitsigns.nvim'
 end)
+
