@@ -72,4 +72,4 @@ vim.api.nvim_create_autocmd("QuickFixCmdPost", {
 
 -- Copy line to system
 vim.api.nvim_set_option("clipboard","unnamed")
-
+vim.opt.clipboard:append { 'unnamedplus' }
