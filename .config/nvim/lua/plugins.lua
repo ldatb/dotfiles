@@ -84,5 +84,8 @@ return require('packer').startup(function(use)
 
   -- git signs
   use 'lewis6991/gitsigns.nvim'
+    
+  -- copilot
+  use 'github/copilot.vim'
 end)
 
