@@ -546,6 +546,98 @@ schemes:
       cyan:    '#54ced6'
       white:   '#282a2e'
 
+  ### Tokyo Night ###
+  tokyo-night: &tokyo-night
+    # Default colors
+    primary:
+      background: '#1a1b26'
+      foreground: '#a9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#ad8ee6'
+      cyan:    '#449dab'
+      white:   '#787c99'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#ff7a93'
+      green:   '#b9f27c'
+      yellow:  '#ff9e64'
+      blue:    '#7da6ff'
+      magenta: '#bb9af7'
+      cyan:    '#0db9d7'
+      white:   '#acb0d0'
+
+  tokyo-night-storm: &tokyo-night-storm
+    # Default colors
+    primary:
+      background: '#24283b'
+      foreground: '#a9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#ad8ee6'
+      cyan:    '#449dab'
+      white:   '#9699a8'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#ff7a93'
+      green:   '#b9f27c'
+      yellow:  '#ff9e64'
+      blue:    '#7da6ff'
+      magenta: '#bb9af7'
+      cyan:    '#0db9d7'
+      white:   '#acb0d0'
+
+  ### One Dark ###
+  OneDark: &OneDark
+    # Default colors
+    primary:
+      background: '0x1e2127'
+      foreground: '0xabb2bf'
+      bright_foreground: '0xe6efff'
+  
+    # Colors the cursor will use if `custom_cursor_colors` is true
+    cursor:
+      text: '0x000000'
+      cursor: '0xffffff'
+
+    # Normal colors
+    normal:
+      black:   '0x1e2127'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xd19a66'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0x828791'
+
+    # Bright colors
+    bright:
+      black:   '0x5c6370'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xd19a66'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0xe6efff'
+
 ######################################################################
 ## SET THEME: Choose ONE color scheme from those in the above list. ##
 ## ###################################################################
@@ -560,8 +652,11 @@ schemes:
 # *SolarizedLight
 # *SolarizedDark
 # *TomorrowNight
+# *OneDark
+# *tokyo-night
+# *tokyo-night-storm
 
-colors: *Palenight
+colors: *tokyo-night-storm
 
 # Visual Bell
 #
