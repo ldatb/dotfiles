@@ -4,3 +4,4 @@ lua require("plugin-configs")
 
 set termguicolors
 colorscheme tokyonight
+
