@@ -15,7 +15,7 @@ set $mod Mod4
 workspace_layout default
 
 #border indicator on windows:
-new_window pixel 1
+new_window pixel 3
 
 # thin borders
 # hide_edge_borders both
@@ -24,8 +24,6 @@ new_window pixel 1
 for_window [class=".*"] border pixel 0
 gaps inner 6
 gaps outer 3
-smart_borders on
-new_window pixel 1
 hide_edge_borders both
 
 # show window title bars (not officially supported with i3gaps)
