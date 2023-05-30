@@ -1,7 +1,5 @@
 lua require("options")
 lua require("plugins")
-lua require("plugin-configs")
+lua require("keybindings")
 
-set termguicolors
-colorscheme tokyonight
-
+colorscheme tokyonight-storm

@@ -17,7 +17,7 @@ vim.opt.updatetime = 100            -- Smaller updatetime for CursorHold & Curso
 vim.opt.showmode = false            -- Hide the default mode text
 vim.opt.shortmess:append("c")       -- Abbreviate messages
 vim.opt.matchpairs:append("<:>")    -- Show matching <> (html mainly) as well
-vim.opt.showmatch = true            -- Show matching braces, somewhat annoying...
+vim.opt.showmatch = true            -- Show matching braces
 vim.opt.matchtime = 3               -- Tenths of a second to show the matching parent
 vim.opt.modelines = 0               -- No modlines for security
 vim.opt.splitright = true           -- Open vertical split to the right
@@ -73,4 +73,3 @@ vim.api.nvim_create_autocmd("QuickFixCmdPost", {
 -- Copy line to system
 vim.api.nvim_set_option("clipboard","unnamed")
 vim.opt.clipboard:append { 'unnamedplus' }
-
