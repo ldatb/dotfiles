@@ -100,22 +100,7 @@ font:
 
   # Normal (roman) font face
   normal:
-    # Font family
-    #
-    # Default:
-    #   - (macOS) Menlo
-    #   - (Linux/BSD) monospace
-    #   - (Windows) Consolas
-    # family: Source Code Pro
-    # family: CodeNewRoman Nerd Font
-    # family: RobotoMono Nerd Font
-    # family: Hack
-    # family: JetBrains Mono
-    # family: UbuntuMono Nerd Font
-    # family: Monofur Nerd Font
-    # family: TerminessTTF Nerd Font
-    # family: Mononoki Nerd Font
-    family: "MesloLGS NF"
+    family: "SF Mono"
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -578,6 +563,7 @@ schemes:
       cyan:    '#0db9d7'
       white:   '#acb0d0'
 
+  ### Tokyo Night Storm ###
   tokyo-night-storm: &tokyo-night-storm
     # Default colors
     primary:
