@@ -13,3 +13,11 @@ vim.api.nvim_set_keymap(
   ":Telescope file_browser path=%:p:h select_buffer=true respect_gitignore=false hidden=true grouped=true previewer=false initial_mode=normal",
   { noremap = true }
 )
+
+-- git signs
+vim.api.nvim_set_keymap(
+  "n",
+  "gb",
+  ":Gitsigns toggle_current_line_blame",
+  { noremap = true }
+)
