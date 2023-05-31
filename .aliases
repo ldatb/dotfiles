@@ -34,8 +34,7 @@ alias tls='tmux ls'
 alias tk='tmux kill-session -t'
 
 # neovim
-alias nvim='$HOME/.local/bin/nvim.appimage'
-alias nv='$HOME/.local/bin/nvim.appimage'
+alias nv='nvim'
 
 # less
 alias less='less --raw-control-chars'
