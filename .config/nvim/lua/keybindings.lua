@@ -1,16 +1,8 @@
 -- telescope
 vim.api.nvim_set_keymap(
   "n",
-  "te",
-  ":Telescope",
-  { noremap = true }
-)
-
--- terminal
-vim.api.nvim_set_keymap(
-  "n",
   "t",
-  ":ToggleTerm",
+  ":Telescope",
   { noremap = true }
 )
 
