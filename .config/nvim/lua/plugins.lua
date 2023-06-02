@@ -218,6 +218,15 @@ return require('packer').startup(function(use)
       end
     }
 
+    -- terminal inside neovim
+    use {
+      "akinsho/toggleterm.nvim",
+      tag = '*',
+      config = function()
+        require("toggleterm").setup()
+      end
+    }
+
     -- multiple cursors
     use 'mg979/vim-visual-multi'
 
