@@ -1,5 +1,13 @@
 local opts = { noremap = true }
 
+-- terminal
+vim.api.nvim_set_keymap(
+  "n",
+  "sh",
+  ":terminal<CR>",
+  opts
+)
+
 -- telescope
 vim.api.nvim_set_keymap(
   "n",
