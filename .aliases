@@ -34,7 +34,8 @@ alias tls='tmux ls'
 alias tk='tmux kill-session -t'
 
 # neovim
-alias nv='nvim'
+alias nvim='/opt/nvim/nvim'
+alias nv='/opt/nvim/nvim'
 
 # less
 alias less='less --raw-control-chars'
@@ -49,3 +50,4 @@ alias kubectl="minikube kubectl --"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+

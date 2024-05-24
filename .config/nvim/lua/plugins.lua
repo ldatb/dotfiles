@@ -1,9 +1,20 @@
-vim.cmd [[packadd packer.nvim]]
+local ensure_packer = function()
+  local fn = vim.fn
+  local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
+  if fn.empty(fn.glob(install_path)) > 0 then
+    fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
+    vim.cmd [[packadd packer.nvim]]
+    return true
+  end
+  return false
+end
+
+local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
-    -- Packer can manage itself
-    use 'wbthomason/packer.nvim'
+  use 'wbthomason/packer.nvim'
 
+  -- My plugins here
     -- treesitter
     use {
       'nvim-treesitter/nvim-treesitter',
@@ -25,7 +36,7 @@ return require('packer').startup(function(use)
     -- telescope
     use 'nvim-lua/plenary.nvim'
     use {
-      'nvim-telescope/telescope.nvim', tag = '0.1.1',
+      'nvim-telescope/telescope.nvim', tag = '0.1.7',
       requires = { {'nvim-lua/plenary.nvim'} },
       config = function()
         require("telescope").setup {
@@ -132,150 +143,159 @@ return require('packer').startup(function(use)
     end
   }
 
-    -- git signs
-    use {
-      'lewis6991/gitsigns.nvim',
-      config = function()
-        require('gitsigns').setup {
-          signs = {
-            add          = {hl = 'GitSignsAdd'   , text = '│', numhl='GitSignsAddNr'   , linehl='GitSignsAddLn'},
-            change       = {hl = 'GitSignsChange', text = '│', numhl='GitSignsChangeNr', linehl='GitSignsChangeLn'},
-            delete       = {hl = 'GitSignsDelete', text = '│', numhl='GitSignsDeleteNr', linehl='GitSignsDeleteLn'},
-            topdelete    = {hl = 'GitSignsDelete', text = '│', numhl='GitSignsDeleteNr', linehl='GitSignsDeleteLn'},
-            changedelete = {hl = 'GitSignsChange', text = '│', numhl='GitSignsChangeNr', linehl='GitSignsChangeLn'},
-          },
-          signcolumn = true,  -- Toggle with `:Gitsigns toggle_signs`
-          numhl      = false, -- Toggle with `:Gitsigns toggle_numhl`
-          linehl     = false, -- Toggle with `:Gitsigns toggle_linehl`
-          word_diff  = false, -- Toggle with `:Gitsigns toggle_word_diff`
-          watch_gitdir = {
-            interval = 1000,
-            follow_files = true
-          },
-          attach_to_untracked = true,
-          current_line_blame = true, -- Toggle with `:Gitsigns toggle_current_line_blame`
-          current_line_blame_opts = {
-            virt_text = true,
-            virt_text_pos = 'eol', -- 'eol' | 'overlay' | 'right_align'
-            delay = 1000,
-            ignore_whitespace = false,
-          },
-          current_line_blame_formatter = '<author>, <author_time:%Y-%m-%d> - <summary>',
-          sign_priority = 6,
-          update_debounce = 100,
-          status_formatter = nil, -- Use default
-          max_file_length = 40000,
-          preview_config = {
-            -- Options passed to nvim_open_win
-            border = 'single',
-            style = 'minimal',
-            relative = 'cursor',
-            row = 0,
-            col = 1
-          },
-          yadm = {
-            enable = false
-          },
-          on_attach = function(bufnr)
-            local gs = package.loaded.gitsigns
-        
-            local function map(mode, l, r, opts)
-              opts = opts or {}
-              opts.buffer = bufnr
-              vim.keymap.set(mode, l, r, opts)
-            end
-        
-            -- Navigation
-            map('n', ']c', function()
-              if vim.wo.diff then return ']c' end
-              vim.schedule(function() gs.next_hunk() end)
-              return '<Ignore>'
-            end, {expr=true})
-        
-            map('n', '[c', function()
-              if vim.wo.diff then return '[c' end
-              vim.schedule(function() gs.prev_hunk() end)
-              return '<Ignore>'
-            end, {expr=true})
-        
-            -- Actions
-            map({'n', 'v'}, '<leader>ss', ':Gitsigns stage_hunk<CR>')
-            map({'n', 'v'}, '<leader>uu', ':Gitsigns reset_hunk<CR>')
-            map('n', '<leader>SS', gs.stage_buffer)
-            map('n', '<leader>us', gs.undo_stage_hunk)
-            map('n', '<leader>UU', gs.reset_buffer)
-            -- map('n', '<leader>hp', gs.preview_hunk)
-            -- map('n', '<leader>hb', function() gs.blame_line{full=true} end)
-            -- map('n', '<leader>tb', gs.toggle_current_line_blame)
-            map('n', 'gs', gs.diffthis)
-            -- map('n', '<leader>hD', function() gs.diffthis('~') end)
-            -- map('n', '<leader>td', gs.toggle_deleted)
-        
-            -- Text object
-            map({'o', 'x'}, 'ih', ':<C-U>Gitsigns select_hunk<CR>')
+  -- git signs
+  use {
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('gitsigns').setup {
+        signs = {
+          add          = {hl = 'GitSignsAdd'   , text = '│', numhl='GitSignsAddNr'   , linehl='GitSignsAddLn'},
+          change       = {hl = 'GitSignsChange', text = '│', numhl='GitSignsChangeNr', linehl='GitSignsChangeLn'},
+          delete       = {hl = 'GitSignsDelete', text = '│', numhl='GitSignsDeleteNr', linehl='GitSignsDeleteLn'},
+          topdelete    = {hl = 'GitSignsDelete', text = '│', numhl='GitSignsDeleteNr', linehl='GitSignsDeleteLn'},
+          changedelete = {hl = 'GitSignsChange', text = '│', numhl='GitSignsChangeNr', linehl='GitSignsChangeLn'},
+        },
+        signcolumn = true,  -- Toggle with `:Gitsigns toggle_signs`
+        numhl      = false, -- Toggle with `:Gitsigns toggle_numhl`
+        linehl     = false, -- Toggle with `:Gitsigns toggle_linehl`
+        word_diff  = false, -- Toggle with `:Gitsigns toggle_word_diff`
+        watch_gitdir = {
+          interval = 1000,
+          follow_files = true
+        },
+        attach_to_untracked = true,
+        current_line_blame = true, -- Toggle with `:Gitsigns toggle_current_line_blame`
+        current_line_blame_opts = {
+          virt_text = true,
+          virt_text_pos = 'eol', -- 'eol' | 'overlay' | 'right_align'
+          delay = 1000,
+          ignore_whitespace = false,
+        },
+        current_line_blame_formatter = '<author>, <author_time:%Y-%m-%d> - <summary>',
+        sign_priority = 6,
+        update_debounce = 100,
+        status_formatter = nil, -- Use default
+        max_file_length = 40000,
+        preview_config = {
+          -- Options passed to nvim_open_win
+          border = 'single',
+          style = 'minimal',
+          relative = 'cursor',
+          row = 0,
+          col = 1
+        },
+        yadm = {
+          enable = false
+        },
+        on_attach = function(bufnr)
+          local gs = package.loaded.gitsigns
+
+          local function map(mode, l, r, opts)
+            opts = opts or {}
+            opts.buffer = bufnr
+            vim.keymap.set(mode, l, r, opts)
           end
-        }
-      end
-    }
 
-    -- multiple cursors
-    use 'mg979/vim-visual-multi'
+          -- Navigation
+          map('n', ']c', function()
+            if vim.wo.diff then return ']c' end
+            vim.schedule(function() gs.next_hunk() end)
+            return '<Ignore>'
+          end, {expr=true})
 
-    -- barbar
-    use 'nvim-tree/nvim-web-devicons'
-    use {
-      'romgrk/barbar.nvim',
-      config = function()
-        require("barbar").setup {
-          animation = true,
-          auto_hide = false,
-          tabpages = false,
-          clickable = true,
-          insert_at_end = true,
-          icons = {
-            buffer_index = true,
-            buffer_number = false,
-            button = '',
+          map('n', '[c', function()
+            if vim.wo.diff then return '[c' end
+            vim.schedule(function() gs.prev_hunk() end)
+            return '<Ignore>'
+          end, {expr=true})
 
-            gitsigns = {
-              added = {enabled = true, icon = '+'},
-              changed = {enabled = true, icon = '~'},
-              deleted = {enabled = true, icon = '-'},
-            },
+          -- Actions
+          map({'n', 'v'}, '<leader>ss', ':Gitsigns stage_hunk<CR>')
+          map({'n', 'v'}, '<leader>uu', ':Gitsigns reset_hunk<CR>')
+          map('n', '<leader>SS', gs.stage_buffer)
+          map('n', '<leader>us', gs.undo_stage_hunk)
+          map('n', '<leader>UU', gs.reset_buffer)
+          -- map('n', '<leader>hp', gs.preview_hunk)
+          -- map('n', '<leader>hb', function() gs.blame_line{full=true} end)
+          -- map('n', '<leader>tb', gs.toggle_current_line_blame)
+          map('n', 'gs', gs.diffthis)
+          -- map('n', '<leader>hD', function() gs.diffthis('~') end)
+          -- map('n', '<leader>td', gs.toggle_deleted)
 
-            filetype = {
-              -- Sets the icon's highlight group.
-              -- If false, will use nvim-web-devicons colors
-              custom_colors = false,
+          -- Text object
+          map({'o', 'x'}, 'ih', ':<C-U>Gitsigns select_hunk<CR>')
+        end
+      }
+    end
+  }
 
-              -- Requires `nvim-web-devicons` if `true`
-              enabled = true,
-            },
+  -- multiple cursors
+  use 'mg979/vim-visual-multi'
 
-            separator = {left = '▎', right = ''},
+  -- barbar
+  use 'nvim-tree/nvim-web-devicons'
+  use {
+    'romgrk/barbar.nvim',
+    config = function()
+      require("barbar").setup {
+        animation = true,
+        auto_hide = false,
+        tabpages = false,
+        clickable = true,
+        insert_at_end = true,
+        icons = {
+          buffer_index = true,
+          buffer_number = false,
+          button = '',
 
-            -- If true, add an additional separator at the end of the buffer list
-            separator_at_end = true,
-
-            -- Configure the icons on the bufferline when modified or pinned.
-            -- Supports all the base icon options.
-            modified = {button = '●'},
-            pinned = {button = '', filename = true},
-
-            -- Use a preconfigured buffer appearance— can be 'default', 'powerline', or 'slanted'
-            preset = 'default',
-
-            -- Configure the icons on the bufferline based on the visibility of a buffer.
-            -- Supports all the base icon options, plus `modified` and `pinned`.
-            alternate = {filetype = {enabled = false}},
-            current = {buffer_index = true},
-            inactive = {button = '×'},
-            visible = {modified = {buffer_number = false}},
+          gitsigns = {
+            added = {enabled = true, icon = '+'},
+            changed = {enabled = true, icon = '~'},
+            deleted = {enabled = true, icon = '-'},
           },
-        }
-      end
-    }
 
-    -- tokyo night theme
-    use 'folke/tokyonight.nvim'
+          filetype = {
+            -- Sets the icon's highlight group.
+            -- If false, will use nvim-web-devicons colors
+            custom_colors = false,
+
+            -- Requires `nvim-web-devicons` if `true`
+            enabled = true,
+          },
+
+          separator = {left = '▎', right = ''},
+
+          -- If true, add an additional separator at the end of the buffer list
+          separator_at_end = true,
+
+          -- Configure the icons on the bufferline when modified or pinned.
+          -- Supports all the base icon options.
+          modified = {button = '●'},
+          pinned = {button = '', filename = true},
+
+          -- Use a preconfigured buffer appearance— can be 'default', 'powerline', or 'slanted'
+          preset = 'default',
+
+          -- Configure the icons on the bufferline based on the visibility of a buffer.
+          -- Supports all the base icon options, plus `modified` and `pinned`.
+          alternate = {filetype = {enabled = false}},
+          current = {buffer_index = true},
+          inactive = {button = '×'},
+          visible = {modified = {buffer_number = false}},
+        },
+      }
+    end
+  }
+
+  -- tokyo night theme
+  use 'folke/tokyonight.nvim'
+
+  -- catppuccin theme
+  use { 'catppuccin/nvim', as = 'catppuccin' }
+
+  -- Automatically set up your configuration after cloning packer.nvim
+  -- Put this at the end after all plugins
+  if packer_bootstrap then
+    require('packer').sync()
+  end
 end)

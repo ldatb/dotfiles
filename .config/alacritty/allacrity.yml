@@ -17,7 +17,7 @@ window:
     lines: 30
 
   # Window position (changes require restart)
-  
+
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
   # position:
@@ -599,7 +599,7 @@ schemes:
       background: '0x1e2127'
       foreground: '0xabb2bf'
       bright_foreground: '0xe6efff'
-  
+
     # Colors the cursor will use if `custom_cursor_colors` is true
     cursor:
       text: '0x000000'
@@ -627,6 +627,47 @@ schemes:
       cyan:    '0x56b6c2'
       white:   '0xe6efff'
 
+  ### Catppuccin ###
+  OneDark: &Catppuccin-Mocha
+    # Default colors
+    primary:
+      background: '0x1e1e2e'
+      foreground: '0xcdd6f4'
+      dim_foreground: '0x7f849c'
+      bright_foreground: '0xcdd6f4'
+
+    # Colors the cursor will use if `custom_cursor_colors` is true
+    cursor:
+      text: '0x1e1e2e'
+      cursor: '0xf5e0dc'
+
+    # Normal colors
+    normal:
+      black:   '0x45475a'
+      red:     '0xf38ba8'
+      green:   '0xa6e3a1'
+      yellow:  '0xf9e2af'
+      blue:    '0x89b4fa'
+      magenta: '0xf5c2e7'
+      cyan:    '0x94e2d5'
+      white:   '0xbac2de'
+
+    # Bright colors
+    bright:
+      black:   '0x585b70'
+      red:     '0xf38ba8'
+      green:   '0xa6e3a1'
+      yellow:  '0xf9e2af'
+      blue:    '0x89b4fa'
+      magenta: '0xf5c2e7'
+      cyan:    '0x94e2d5'
+      white:   '0xa6adc8'
+
+######################################################################
+## SET THEME: Choose ONE color scheme from those in the above list. ##
+## ###################################################################
+# Available themes are:
+# *DoomOne
 ######################################################################
 ## SET THEME: Choose ONE color scheme from those in the above list. ##
 ## ###################################################################
@@ -643,7 +684,7 @@ schemes:
 # *TomorrowNight
 # *OneDark
 # *tokyo-night
-# *tokyo-night-storm
+*tokyo-night-storm
 
 colors: *tokyo-night-storm
 
