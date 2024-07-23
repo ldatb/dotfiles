@@ -1,0 +1,13 @@
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=true
+background-color='rgb(35,34,34)'
+bold-color-same-as-fg=true
+cursor-shape='block'
+default-size-columns=108
+default-size-rows=36
+font='Ubuntu Mono 13'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(0,0,0)', 'rgb(205,49,49)', 'rgb(13,188,121)', 'rgb(229,229,16)', 'rgb(36,114,200)', 'rgb(188,63,188)', 'rgb(17,168,205)', 'rgb(229,229,229)', 'rgb(102,102,102)', 'rgb(241,76,76)', 'rgb(35,209,139)', 'rgb(245,245,67)', 'rgb(59,142,234)', 'rgb(214,112,214)', 'rgb(41,184,219)', 'rgb(229,229,229)']
+use-system-font=false
+use-theme-colors=false
+visible-name='Lucas'
