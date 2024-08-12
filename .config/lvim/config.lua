@@ -6,6 +6,8 @@
 
 lvim.plugins = {
   { "lunarvim/colorschemes" },
+  { "folke/tokyonight.nvim", lazy = false, priority = 1000, opts = {} },
   { "scottmckendry/cyberdream.nvim", lazy = false, priority = 1000 },
 }
+-- lvim.colorscheme = "tokyonight"
 lvim.colorscheme = "cyberdream"
