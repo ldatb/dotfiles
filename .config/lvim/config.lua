@@ -7,7 +7,8 @@
 lvim.plugins = {
   { "lunarvim/colorschemes" },
   { "folke/tokyonight.nvim", lazy = false, priority = 1000, opts = {} },
-  { "scottmckendry/cyberdream.nvim", lazy = false, priority = 1000 },
 }
--- lvim.colorscheme = "tokyonight"
-lvim.colorscheme = "cyberdream"
+
+lvim.format_on_save = true
+lvim.lsp.installer.setup.automatic_installation = true
+lvim.colorscheme = "tokyonight"
