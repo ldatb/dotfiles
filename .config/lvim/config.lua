@@ -6,9 +6,7 @@
 
 lvim.plugins = {
   { "lunarvim/colorschemes" },
-  { "folke/tokyonight.nvim", lazy = false, priority = 1000, opts = {} },
+  { "projekt0n/github-nvim-theme" }
 }
 
-lvim.format_on_save = true
-lvim.lsp.installer.setup.automatic_installation = true
-lvim.colorscheme = "tokyonight"
+lvim.colorscheme = "github_dark_dimmed"
