@@ -6,7 +6,7 @@
 
 lvim.plugins = {
   { "lunarvim/colorschemes" },
-  { "projekt0n/github-nvim-theme" }
+  { "arzg/vim-colors-xcode" }
 }
 
-lvim.colorscheme = "github_dark_dimmed"
+lvim.colorscheme = "xcodedark"
