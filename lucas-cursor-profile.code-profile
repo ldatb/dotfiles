@@ -1,1 +1,632 @@
-{"name":"lucas-cursor-profile","settings":"{\"settings\":\"{\\n  \\\"javascript.updateImportsOnFileMove.enabled\\\": \\\"always\\\",\\n  \\\"kite.showWelcomeNotificationOnStartup\\\": false,\\n  \\\"workbench.editorAssociations\\\": {\\n    \\\"*.ipynb\\\": \\\"jupyter-notebook\\\"\\n  },\\n  \\\"python.showStartPage\\\": false,\\n  \\\"editor.formatOnSave\\\": true,\\n  \\\"explorer.confirmDragAndDrop\\\": false,\\n  \\\"diffEditor.ignoreTrimWhitespace\\\": false,\\n  \\\"C_Cpp.updateChannel\\\": \\\"Insiders\\\",\\n  \\\"explorer.compactFolders\\\": false,\\n  \\\"jupyter.alwaysTrustNotebooks\\\": true,\\n  \\\"gitblame.commitUrl\\\": \\\"guess\\\",\\n  \\\"editor.suggestSelection\\\": \\\"first\\\",\\n  \\\"vsintellicode.modify.editor.suggestSelection\\\": \\\"automaticallyOverrodeDefaultValue\\\",\\n  \\\"terminal.integrated.tabs.enabled\\\": true,\\n  \\\"terminal.integrated.defaultProfile.windows\\\": \\\"Windows PowerShell\\\",\\n  \\\"terminal.integrated.profiles.windows\\\": {\\n    \\\"PowerShell\\\": {\\n      \\\"source\\\": \\\"PowerShell\\\",\\n      \\\"icon\\\": \\\"terminal-powershell\\\"\\n    },\\n    \\\"Command Prompt\\\": {\\n      \\\"path\\\": [\\n        \\\"${env:windir}\\\\\\\\Sysnative\\\\\\\\cmd.exe\\\",\\n        \\\"${env:windir}\\\\\\\\System32\\\\\\\\cmd.exe\\\"\\n      ],\\n      \\\"args\\\": [],\\n      \\\"icon\\\": \\\"terminal-cmd\\\"\\n    },\\n    \\\"Git Bash\\\": {\\n      \\\"source\\\": \\\"Git Bash\\\"\\n    },\\n    \\\"Windows PowerShell\\\": {\\n      \\\"path\\\": \\\"C:\\\\\\\\Windows\\\\\\\\System32\\\\\\\\WindowsPowerShell\\\\\\\\v1.0\\\\\\\\powershell.exe\\\"\\n    }\\n  },\\n  \\\"terminal.integrated.profiles.linux\\\": {\\n    \\\"bash\\\": {\\n      \\\"path\\\": \\\"bash\\\",\\n      \\\"icon\\\": \\\"terminal-bash\\\"\\n    },\\n    \\\"zsh\\\": {\\n      \\\"path\\\": \\\"/bin/zsh\\\"\\n    }\\n  },\\n  \\\"auto-build.defaultEnv.name\\\": \\\"STM32F103RC_btt_512K_USB\\\",\\n  \\\"go.toolsManagement.autoUpdate\\\": true,\\n  \\\"workbench.startupEditor\\\": \\\"none\\\",\\n  \\\"editor.fontFamily\\\": \\\"Inter\\\",\\n  \\\"editor.fontSize\\\": 14,\\n  \\\"editor.fontLigatures\\\": true,\\n  \\\"git.autofetch\\\": true,\\n  \\\"security.workspace.trust.untrustedFiles\\\": \\\"open\\\",\\n  \\\"notebook.cellToolbarLocation\\\": {\\n    \\\"default\\\": \\\"right\\\",\\n    \\\"jupyter-notebook\\\": \\\"left\\\"\\n  },\\n  \\\"redhat.telemetry.enabled\\\": true,\\n  \\\"git.confirmSync\\\": false,\\n  \\\"go.formatTool\\\": \\\"goimports\\\",\\n  \\\"explorer.confirmDelete\\\": false,\\n  \\\"files.exclude\\\": {\\n    \\\"**/.classpath\\\": true,\\n    \\\"**/.project\\\": true,\\n    \\\"**/.settings\\\": true,\\n    \\\"**/.factorypath\\\": true\\n  },\\n  \\\"vs-kubernetes\\\": {\\n    \\\"vscode-kubernetes.kubectl-path.linux\\\": \\\"/home/lbarreto/.vs-kubernetes/tools/kubectl/kubectl\\\",\\n    \\\"vscode-kubernetes.minikube-path.linux\\\": \\\"/home/lbarreto/.vs-kubernetes/tools/minikube/linux-amd64/minikube\\\",\\n    \\\"vscode-kubernetes.helm-path.linux\\\": \\\"/home/lbarreto/.vs-kubernetes/tools/helm/linux-amd64/helm\\\"\\n  },\\n  \\\"git.suggestSmartCommit\\\": false,\\n  \\\"svelte.enable-ts-plugin\\\": true,\\n  \\\"css.lint.unknownAtRules\\\": \\\"ignore\\\",\\n  \\\"editor.codeActionsOnSave\\\": {},\\n  \\\"terminal.external.linuxExec\\\": \\\"zsh\\\",\\n  \\\"terminal.integrated.defaultProfile.linux\\\": \\\"zsh\\\",\\n  \\\"terminal.integrated.fontFamily\\\": \\\"monospace\\\",\\n  \\\"ansible.validation.lint.enabled\\\": false,\\n  \\\"markdownlint.config\\\": {\\n    \\\"html\\\": false,\\n    \\\"MD036\\\": false\\n  },\\n  \\\"[python]\\\": {\\n    \\\"editor.formatOnType\\\": true\\n  },\\n  \\\"git.openRepositoryInParentFolders\\\": \\\"never\\\",\\n  \\\"remoteHub.commitDirectlyWarning\\\": \\\"off\\\",\\n  \\\"editor.inlineSuggest.enabled\\\": true,\\n  \\\"github.copilot.enable\\\": {\\n    \\\"*\\\": true,\\n    \\\"yaml\\\": false,\\n    \\\"plaintext\\\": false,\\n    \\\"markdown\\\": true,\\n    \\\"scminput\\\": false\\n  },\\n  \\\"[json]\\\": {\\n    \\\"editor.defaultFormatter\\\": \\\"esbenp.prettier-vscode\\\"\\n  },\\n  \\\"[go]\\\": {\\n    \\\"editor.formatOnSave\\\": true,\\n    \\\"editor.codeActionsOnSave\\\": {\\n      \\\"source.organizeImports\\\": \\\"true\\\"\\n    }\\n  },\\n  \\\"[go.mod]\\\": {\\n    \\\"editor.formatOnSave\\\": true,\\n    \\\"editor.codeActionsOnSave\\\": {\\n      \\\"source.organizeImports\\\": \\\"true\\\"\\n    }\\n  },\\n  \\\"terminal.integrated.enableMultiLinePasteWarning\\\": false,\\n  \\\"cloudcode.duetAI.project\\\": \\\"coe-global-gemini-poc\\\",\\n  \\\"[yaml]\\\": {\\n    \\\"editor.defaultFormatter\\\": \\\"redhat.vscode-yaml\\\"\\n  },\\n  \\\"window.titleBarStyle\\\": \\\"native\\\",\\n  \\\"window.nativeTabs\\\": true,\\n  \\\"workbench.editor.showIcons\\\": false,\\n  \\\"problems.decorations.enabled\\\": false,\\n  \\\"workbench.iconTheme\\\": \\\"macos-modern-big-sur-icon-theme\\\",\\n  \\\"workbench.colorCustomizations\\\": {\\n    \\\"activityBar.activeBackground\\\": \\\"#45464a57\\\",\\n    \\\"activityBar.activeBorder\\\": \\\"#128cff\\\",\\n    \\\"activityBar.activeFocusBorder\\\": \\\"#128cff\\\",\\n    \\\"activityBar.background\\\": \\\"#353333\\\",\\n    \\\"activityBar.border\\\": \\\"#101010\\\",\\n    \\\"activityBar.dropBorder\\\": \\\"#128cff\\\",\\n    \\\"activityBar.foreground\\\": \\\"#128cff\\\",\\n    \\\"activityBar.inactiveForeground\\\": \\\"#c2c0c0\\\",\\n    \\\"activityBarBadge.background\\\": \\\"#128cff\\\",\\n    \\\"badge.background\\\": \\\"#128cff\\\",\\n    \\\"badge.foreground\\\": \\\"#ffffff\\\",\\n    \\\"button.background\\\": \\\"#128cff\\\",\\n    \\\"button.foreground\\\": \\\"#ffffff\\\",\\n    \\\"button.hoverBackground\\\": \\\"#128cff\\\",\\n    \\\"descriptionForeground\\\": \\\"#777777\\\",\\n    \\\"dropdown.background\\\": \\\"#403e3e\\\",\\n    \\\"dropdown.border\\\": \\\"#bfbfbf\\\",\\n    \\\"dropdown.foreground\\\": \\\"#dedede\\\",\\n    \\\"dropdown.listBackground\\\": \\\"#ffffff\\\",\\n    \\\"editor.background\\\": \\\"#232222\\\",\\n    \\\"editor.foreground\\\": \\\"#ffffffd8\\\",\\n    \\\"editor.inactiveSelectionBackground\\\": \\\"#6e6e6e\\\",\\n    \\\"editor.lineHighlightBackground\\\": \\\"#403e3e\\\",\\n    \\\"editor.selectionBackground\\\": \\\"#6e6e6e\\\",\\n    \\\"editor.selectionHighlightBackground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editor.wordHighlightBackground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editor.wordHighlightStrongBackground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editorError.border\\\": \\\"#ff000000\\\",\\n    \\\"editorError.foreground\\\": \\\"#e21515\\\",\\n    \\\"editorGroup.border\\\": \\\"#3e3c3c\\\",\\n    \\\"editorGroup.dropBackground\\\": \\\"#555555\\\",\\n    \\\"editorGroup.emptyBackground\\\": \\\"#403e3e\\\",\\n    \\\"editorGroup.focusedEmptyBorder\\\": \\\"#00000000\\\",\\n    \\\"editorGroupHeader.border\\\": \\\"#3e3c3c\\\",\\n    \\\"editorGroupHeader.noTabsBackground\\\": \\\"#2c2c2b\\\",\\n    \\\"editorGroupHeader.tabsBackground\\\": \\\"#2c2c2b\\\",\\n    \\\"editorGroupHeader.tabsBorder\\\": \\\"#3e3c3c\\\",\\n    \\\"editorGutter.addedBackground\\\": \\\"#4dbf57\\\",\\n    \\\"editorGutter.background\\\": \\\"#ff000000\\\",\\n    \\\"editorGutter.deletedBackground\\\": \\\"#e21515\\\",\\n    \\\"editorGutter.modifiedBackground\\\": \\\"#128cff\\\",\\n    \\\"editorHint.border\\\": \\\"#ff000000\\\",\\n    \\\"editorHint.foreground\\\": \\\"#128cff\\\",\\n    \\\"editorInfo.border\\\": \\\"#ff000000\\\",\\n    \\\"editorInfo.foreground\\\": \\\"#4dbf57\\\",\\n    \\\"editorLineNumber.activeForeground\\\": \\\"#ffffffd8\\\",\\n    \\\"editorLineNumber.foreground\\\": \\\"#747478\\\",\\n    \\\"editorOverviewRuler.addedForeground\\\": \\\"#4dbf57\\\",\\n    \\\"editorOverviewRuler.border\\\": \\\"#ff000000\\\",\\n    \\\"editorOverviewRuler.bracketMatchForeground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editorOverviewRuler.deletedForeground\\\": \\\"#e21515\\\",\\n    \\\"editorOverviewRuler.errorForeground\\\": \\\"#e21515\\\",\\n    \\\"editorOverviewRuler.findMatchForeground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editorOverviewRuler.infoForeground\\\": \\\"#128cff\\\",\\n    \\\"editorOverviewRuler.modifiedForeground\\\": \\\"#128cff\\\",\\n    \\\"editorOverviewRuler.rangeHighlightForeground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editorOverviewRuler.selectionHighlightForeground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editorOverviewRuler.warningForeground\\\": \\\"#ffc501\\\",\\n    \\\"editorOverviewRuler.wordHighlightForeground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editorOverviewRuler.wordHighlightStrongForeground\\\": \\\"#6e6e6e80\\\",\\n    \\\"editorPane.background\\\": \\\"#1e1e1e\\\",\\n    \\\"editorUnnecessaryCode.opacity\\\": \\\"#000000c0\\\",\\n    \\\"editorWarning.border\\\": \\\"#ff000000\\\",\\n    \\\"editorWarning.foreground\\\": \\\"#ffc501\\\",\\n    \\\"editorWidget.background\\\": \\\"#2c2c2b\\\",\\n    \\\"focusBorder\\\": \\\"#3675a2\\\",\\n    \\\"foreground\\\": \\\"#a3a2a2\\\",\\n    \\\"input.background\\\": \\\"#403e3e\\\",\\n    \\\"input.border\\\": \\\"#515151\\\",\\n    \\\"input.foreground\\\": \\\"#dedede\\\",\\n    \\\"inputOption.activeBackground\\\": \\\"#4f4d4d\\\",\\n    \\\"list.activeSelectionBackground\\\": \\\"#464646\\\",\\n    \\\"list.focusBackground\\\": \\\"#464646\\\",\\n    \\\"list.focusOutline\\\": \\\"#464646\\\",\\n    \\\"list.hoverBackground\\\": \\\"#464646\\\",\\n    \\\"list.inactiveFocusBackground\\\": \\\"#464646\\\",\\n    \\\"list.inactiveSelectionBackground\\\": \\\"#464646\\\",\\n    \\\"minimap.background\\\": \\\"#00000079\\\",\\n    \\\"panel.background\\\": \\\"#2c2c2b\\\",\\n    \\\"panelInput.border\\\": \\\"#101010\\\",\\n    \\\"panelSection.border\\\": \\\"#101010\\\",\\n    \\\"panelSectionHeader.border\\\": \\\"#101010\\\",\\n    \\\"quickInput.background\\\": \\\"#101010\\\",\\n    \\\"quickInput.foreground\\\": \\\"#dedede\\\",\\n    \\\"selection.background\\\": \\\"#4f4d4d\\\",\\n    \\\"sideBar.background\\\": \\\"#353333\\\",\\n    \\\"sideBar.border\\\": \\\"#101010\\\",\\n    \\\"sideBar.dropBackground\\\": \\\"#353333\\\",\\n    \\\"sideBar.foreground\\\": \\\"#dedede\\\",\\n    \\\"sideBarSectionHeader.background\\\": \\\"#35333350\\\",\\n    \\\"sideBarSectionHeader.border\\\": \\\"#f9f5f500\\\",\\n    \\\"sideBarSectionHeader.foreground\\\": \\\"#b4b3b3\\\",\\n    \\\"sideBarTitle.foreground\\\": \\\"#7d7c7c\\\",\\n    \\\"statusBar.background\\\": \\\"#403e3e\\\",\\n    \\\"statusBar.border\\\": \\\"#101010\\\",\\n    \\\"statusBar.debuggingBackground\\\": \\\"#403e3e\\\",\\n    \\\"statusBar.foreground\\\": \\\"#b4b3b3\\\",\\n    \\\"statusBar.noFolderBackground\\\": \\\"#403e3e\\\",\\n    \\\"tab.activeBackground\\\": \\\"#403e3e\\\",\\n    \\\"tab.activeBorder\\\": \\\"#101010\\\",\\n    \\\"tab.activeBorderTop\\\": \\\"#403e3e\\\",\\n    \\\"tab.activeForeground\\\": \\\"#ebebeb\\\",\\n    \\\"tab.border\\\": \\\"#474646\\\",\\n    \\\"tab.inactiveBackground\\\": \\\"#2c2c2b\\\",\\n    \\\"tab.inactiveForeground\\\": \\\"#9f9f9e\\\",\\n    \\\"tab.unfocusedActiveBackground\\\": \\\"#403e3e\\\",\\n    \\\"tab.unfocusedActiveBorder\\\": \\\"#101010\\\",\\n    \\\"tab.unfocusedActiveForeground\\\": \\\"#ebebeb\\\",\\n    \\\"tab.unfocusedInactiveBackground\\\": \\\"#2c2c2b\\\",\\n    \\\"tab.unfocusedInactiveForeground\\\": \\\"#9f9f9e\\\",\\n    \\\"textBlockQuote.background\\\": \\\"#ff000000\\\",\\n    \\\"textBlockQuote.border\\\": \\\"#ff000000\\\",\\n    \\\"textCodeBlock.background\\\": \\\"#ff000000\\\",\\n    \\\"titleBar.activeBackground\\\": \\\"#403e3e\\\",\\n    \\\"titleBar.activeForeground\\\": \\\"#dedede\\\",\\n    \\\"titleBar.border\\\": \\\"#101010\\\",\\n    \\\"titleBar.inactiveBackground\\\": \\\"#403e3e\\\",\\n    \\\"titleBar.inactiveForeground\\\": \\\"#acacab\\\",\\n    \\\"widget.shadow\\\": \\\"#403e3e\\\",\\n    \\\"terminal.ansiBlack\\\": \\\"#000000\\\",\\n    \\\"terminal.ansiBlue\\\": \\\"#2472c8\\\",\\n    \\\"terminal.ansiBrightBlack\\\": \\\"#666666\\\",\\n    \\\"terminal.ansiBrightBlue\\\": \\\"#3b8eea\\\",\\n    \\\"terminal.ansiBrightCyan\\\": \\\"#29b8db\\\",\\n    \\\"terminal.ansiBrightGreen\\\": \\\"#23d18b\\\",\\n    \\\"terminal.ansiBrightMagenta\\\": \\\"#d670d6\\\",\\n    \\\"terminal.ansiBrightRed\\\": \\\"#f14c4c\\\",\\n    \\\"terminal.ansiBrightWhite\\\": \\\"#e5e5e5\\\",\\n    \\\"terminal.ansiBrightYellow\\\": \\\"#f5f543\\\",\\n    \\\"terminal.ansiCyan\\\": \\\"#11a8cd\\\",\\n    \\\"terminal.ansiGreen\\\": \\\"#0dbc79\\\",\\n    \\\"terminal.ansiMagenta\\\": \\\"#bc3fbc\\\",\\n    \\\"terminal.ansiRed\\\": \\\"#cd3131\\\",\\n    \\\"terminal.ansiWhite\\\": \\\"#e5e5e5\\\",\\n    \\\"terminal.ansiYellow\\\": \\\"#e5e510\\\",\\n    \\\"terminal.border\\\": \\\"#80808059\\\"\\n  },\\n  \\\"vsicons.projectDetection.autoReload\\\": true,\\n  \\\"workbench.colorTheme\\\": \\\"MacOS Modern Dark - Ventura Xcode\\\",\\n  \\\"lldb.library\\\": \\\"/home/lucas/.local/share/swiftly/toolchains/5.10.1/usr/lib/liblldb.so\\\",\\n  \\\"lldb.launch.expressions\\\": \\\"native\\\",\\n  \\\"cursor.cpp.disabledLanguages\\\": [\\\"yaml\\\", \\\"plaintext\\\", \\\"scminput\\\"],\\n  \\\"workbench.productIconTheme\\\": \\\"macos-modern\\\",\\n  \\\"files.autoSave\\\": \\\"afterDelay\\\"\\n}\\n\"}","extensions":"[{\"identifier\":{\"id\":\"alefragnani.project-manager\",\"uuid\":\"1b747f06-3789-4ebd-ac99-f1fe430c3347\"},\"displayName\":\"Project Manager\"},{\"identifier\":{\"id\":\"batisteo.vscode-django\",\"uuid\":\"4b41a5a8-170e-4156-b2c0-10efb270abbc\"},\"displayName\":\"Django\"},{\"identifier\":{\"id\":\"bungcip.better-toml\",\"uuid\":\"464f4ac7-af65-4aa9-9907-4ba7fa419085\"},\"displayName\":\"Better TOML\"},{\"identifier\":{\"id\":\"davidbwaters.macos-modern-theme\",\"uuid\":\"ad4ee4d7-9d78-49e4-801e-b2fef4eaff6e\"},\"displayName\":\"MacOS Modern Theme\"},{\"identifier\":{\"id\":\"donjayamanne.githistory\",\"uuid\":\"5960f38e-0bbe-4644-8f9c-9c8824e82511\"},\"displayName\":\"Git History\"},{\"identifier\":{\"id\":\"donjayamanne.python-environment-manager\",\"uuid\":\"0c9f60fd-5588-42f7-9176-e80c3ae111ec\"},\"displayName\":\"Python Environment Manager\"},{\"identifier\":{\"id\":\"donjayamanne.python-extension-pack\",\"uuid\":\"f5188937-53e0-45bb-a16d-61231003fa3b\"},\"displayName\":\"Python Extension Pack\"},{\"identifier\":{\"id\":\"eamodio.gitlens\",\"uuid\":\"4de763bd-505d-4978-9575-2b7696ecf94e\"},\"displayName\":\"GitLens — Git supercharged\"},{\"identifier\":{\"id\":\"esbenp.prettier-vscode\",\"uuid\":\"96fa4707-6983-4489-b7c5-d5ffdfdcce90\"},\"displayName\":\"Prettier - Code formatter\"},{\"identifier\":{\"id\":\"golang.go\",\"uuid\":\"d6f6cfea-4b6f-41f4-b571-6ad2ab7918da\"},\"displayName\":\"Go\"},{\"identifier\":{\"id\":\"ipedrazas.kubernetes-snippets\",\"uuid\":\"1bf2afc4-296d-482b-89ff-3318c474a2a8\"},\"displayName\":\"Kubernetes Support\"},{\"identifier\":{\"id\":\"irongeek.vscode-env\",\"uuid\":\"2fd1d28f-fc2a-4582-8788-2f01febe43a6\"},\"displayName\":\"ENV\"},{\"identifier\":{\"id\":\"kevinrose.vsc-python-indent\",\"uuid\":\"f3cbfb84-b1e1-40ff-b70f-877253461260\"},\"displayName\":\"Python Indent\"},{\"identifier\":{\"id\":\"lehni.vscode-titlebar-less-macos\",\"uuid\":\"3cc2f84c-1041-4b5c-b12f-fcd000455cf9\"},\"displayName\":\"Titlebar-Less VSCode for macOS\"},{\"identifier\":{\"id\":\"ms-kubernetes-tools.vscode-kubernetes-tools\",\"uuid\":\"4837e4f3-1b01-4732-b1a6-daa57ef64cab\"},\"displayName\":\"Kubernetes\"},{\"identifier\":{\"id\":\"ms-python.debugpy\",\"uuid\":\"4bd5d2c9-9d65-401a-b0b2-7498d9f17615\"},\"displayName\":\"Python Debugger\"},{\"identifier\":{\"id\":\"ms-python.python\",\"uuid\":\"f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5\"},\"displayName\":\"Python\"},{\"identifier\":{\"id\":\"ms-python.vscode-pylance\",\"uuid\":\"364d2426-116a-433a-a5d8-a5098dc3afbd\"},\"displayName\":\"Pylance\"},{\"identifier\":{\"id\":\"njpwerner.autodocstring\",\"uuid\":\"2d6fea35-f68e-461d-9b7b-5cd05be99451\"},\"displayName\":\"autoDocstring - Python Docstring Generator\"},{\"identifier\":{\"id\":\"redhat.ansible\",\"uuid\":\"f8cb4642-bc5c-46a1-be34-0977e817406c\"},\"displayName\":\"Ansible\"},{\"identifier\":{\"id\":\"redhat.vscode-yaml\",\"uuid\":\"2061917f-f76a-458a-8da9-f162de22b97e\"},\"displayName\":\"YAML\"},{\"identifier\":{\"id\":\"samuelcolvin.jinjahtml\",\"uuid\":\"8b477a76-974c-403d-a454-58028c1709d1\"},\"displayName\":\"Better Jinja\"},{\"identifier\":{\"id\":\"tim-koehler.helm-intellisense\",\"uuid\":\"1f8a7b1b-d91a-45aa-a69c-10482b94044a\"},\"displayName\":\"Helm Intellisense\"},{\"identifier\":{\"id\":\"visualstudioexptteam.intellicode-api-usage-examples\",\"uuid\":\"9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3\"},\"displayName\":\"IntelliCode API Usage Examples\"},{\"identifier\":{\"id\":\"visualstudioexptteam.vscodeintellicode\",\"uuid\":\"876e8f93-74d0-4f4f-91b7-34a09f19f444\"},\"displayName\":\"IntelliCode\"},{\"identifier\":{\"id\":\"wholroyd.jinja\",\"uuid\":\"c941a679-d500-46a8-b2a9-208063125901\"},\"displayName\":\"Jinja\"},{\"identifier\":{\"id\":\"zainchen.json\",\"uuid\":\"311c4d7f-e81f-47f8-9956-6a9919ddef43\"},\"displayName\":\"json\"}]","globalState":"{\"storage\":{\"workbench.panel.markers.hidden\":\"[{\\\"id\\\":\\\"workbench.panel.markers.view\\\",\\\"isHidden\\\":false}]\",\"workbench.panel.output.hidden\":\"[{\\\"id\\\":\\\"workbench.panel.output\\\",\\\"isHidden\\\":false}]\",\"terminal.hidden\":\"[{\\\"id\\\":\\\"terminal\\\",\\\"isHidden\\\":false}]\",\"workbench.scm.views.state.hidden\":\"[{\\\"id\\\":\\\"workbench.scm.repositories\\\",\\\"isHidden\\\":true},{\\\"id\\\":\\\"workbench.scm\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.repositories\\\",\\\"isHidden\\\":true},{\\\"id\\\":\\\"gitlens.views.commits\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.branches\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.remotes\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.stashes\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.tags\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.worktrees\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.contributors\\\",\\\"isHidden\\\":false}]\",\"workbench.explorer.views.state.hidden\":\"[{\\\"id\\\":\\\"outline\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"timeline\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.explorer.openEditorsView\\\",\\\"isHidden\\\":true},{\\\"id\\\":\\\"workbench.explorer.emptyView\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.explorer.fileView\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"npm\\\",\\\"isHidden\\\":true},{\\\"id\\\":\\\"go.explorer\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"commitViewProvider\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"compareCommitViewProvider\\\",\\\"isHidden\\\":false}]\",\"workbench.view.search.state.hidden\":\"[{\\\"id\\\":\\\"workbench.view.search\\\",\\\"isHidden\\\":false}]\",\"workbench.panel.aichat.hidden\":\"[{\\\"id\\\":\\\"workbench.panel.aichat.view\\\",\\\"isHidden\\\":false}]\",\"workbench.panel.aipaneaaaireview.hidden\":\"[{\\\"id\\\":\\\"workbench.panel.aipane.viewaaaireview\\\",\\\"isHidden\\\":false}]\",\"workbench.panel.pinnedPanels\":\"[{\\\"id\\\":\\\"workbench.panel.markers\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":0},{\\\"id\\\":\\\"workbench.panel.output\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":1},{\\\"id\\\":\\\"workbench.panel.composerViewPane\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":2},{\\\"id\\\":\\\"workbench.panel.repl\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":2},{\\\"id\\\":\\\"terminal\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":3},{\\\"id\\\":\\\"workbench.panel.testResults\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":3},{\\\"id\\\":\\\"~remote.forwardedPortsContainer\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":5},{\\\"id\\\":\\\"workbench.view.extension.lightspeed-training-match-panel\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":7},{\\\"id\\\":\\\"workbench.view.extension.gitlensPanel\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":6},{\\\"id\\\":\\\"refactorPreview\\\",\\\"pinned\\\":true,\\\"visible\\\":false}]\",\"workbench.auxiliarybar.pinnedPanels\":\"[{\\\"id\\\":\\\"workbench.panel.aichat\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":0},{\\\"id\\\":\\\"workbench.panel.aipaneaaaireview\\\",\\\"pinned\\\":true,\\\"visible\\\":false,\\\"order\\\":2}]\",\"cursorai/donotchange/privacyMode\":\"true\",\"workbench.view.debug.state.hidden\":\"[{\\\"id\\\":\\\"workbench.debug.welcome\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.debug.variablesView\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.debug.watchExpressionsView\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.debug.callStackView\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.debug.loadedScriptsView\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.debug.breakPointsView\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"jsBrowserBreakpoints\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"jsExcludedCallers\\\",\\\"isHidden\\\":false}]\",\"~remote.forwardedPortsContainer.hidden\":\"[{\\\"id\\\":\\\"~remote.forwardedPorts\\\",\\\"isHidden\\\":false}]\",\"colorThemeData\":\"{\\\"id\\\":\\\"vs-dark davidbwaters-macos-modern-theme-themes-color-big-sur-dark-xcode-ventura-json\\\",\\\"label\\\":\\\"MacOS Modern Dark - Ventura Xcode\\\",\\\"settingsId\\\":\\\"MacOS Modern Dark - Ventura Xcode\\\",\\\"themeTokenColors\\\":[{\\\"settings\\\":{\\\"foreground\\\":\\\"#7f8c98\\\"},\\\"scope\\\":[\\\"comment\\\",\\\"punctuation.definition.comment\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#fe8170\\\"},\\\"scope\\\":[\\\"string\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd8\\\"},\\\"scope\\\":[\\\"storage.type.function.arrow\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#fe7ab2\\\"},\\\"scope\\\":[\\\"storage.type\\\",\\\"storage.modifier\\\",\\\"keyword\\\",\\\"variable.language.this\\\",\\\"variable.language.super\\\",\\\"keyword.other.typedef\\\",\\\"constant.language\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#6bdfff\\\"},\\\"scope\\\":[\\\"entity.name.type.class\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#b181ec\\\"},\\\"scope\\\":[\\\"variable.other.property\\\",\\\"variable.other.object.property\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#4db1cb\\\"},\\\"scope\\\":[\\\"entity.name.function\\\",\\\"entity.name.function.method\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#d9baff\\\"},\\\"scope\\\":[\\\"entity.name.type.module\\\",\\\"entity.other.inherited-class\\\",\\\"entity.name.class\\\"]},{\\\"settings\\\":{\\\"fontStyle\\\":\\\"\\\",\\\"foreground\\\":\\\"#6bdfff\\\"},\\\"scope\\\":[\\\"markup.bold\\\",\\\"markdown.bold\\\"]},{\\\"settings\\\":{\\\"fontStyle\\\":\\\"\\\",\\\"foreground\\\":\\\"#6bdfff\\\"},\\\"scope\\\":[\\\"markup.heading\\\",\\\"markdown.heading\\\"]},{\\\"settings\\\":{\\\"fontStyle\\\":\\\"\\\",\\\"foreground\\\":\\\"#d9baff\\\"},\\\"scope\\\":[\\\"markup.italic\\\",\\\"markdown.italic\\\"]},{\\\"settings\\\":{\\\"fontStyle\\\":\\\"\\\",\\\"foreground\\\":\\\"#d9baff\\\"},\\\"scope\\\":[\\\"markup.quote\\\",\\\"markdown.quote\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#6bdfff\\\"},\\\"scope\\\":[\\\"meta.type.annotation\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#fe7ab2\\\"},\\\"scope\\\":[\\\"punctuation.definition.tag\\\",\\\"entity.name.tag\\\",\\\"punctuation.separator.key-value\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd9\\\"},\\\"scope\\\":[\\\"punctuation.separator.key-value.js\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#cc9767\\\"},\\\"scope\\\":[\\\"meta.attribute\\\",\\\"entity.other.attribute-name\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#d8c87c\\\"},\\\"scope\\\":[\\\"constant.numeric\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#abf2e4\\\"},\\\"scope\\\":[\\\"variable.other.property\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd9\\\"},\\\"scope\\\":[\\\"keyword.operator\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd9\\\"},\\\"scope\\\":[\\\"variable.parameter\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#d9baff\\\"},\\\"scope\\\":[\\\"support.type\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd9\\\"},\\\"scope\\\":[\\\"keyword.operator.assignment\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#6bdfff\\\"},\\\"scope\\\":[\\\"entity.name.fragment.graphql\\\",\\\"variable.fragment.graphql\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd9\\\"},\\\"scope\\\":[\\\"punctuation.quasi.element\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd9\\\"},\\\"scope\\\":[\\\"variable.other.readwrite\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#ffffffd9\\\"},\\\"scope\\\":[\\\"meta.brace\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#b281eb\\\"},\\\"scope\\\":[\\\"keyword.operator.arithmetic\\\"]},{\\\"settings\\\":{\\\"foreground\\\":\\\"#6796e6\\\"},\\\"scope\\\":\\\"token.info-token\\\"},{\\\"settings\\\":{\\\"foreground\\\":\\\"#cd9731\\\"},\\\"scope\\\":\\\"token.warn-token\\\"},{\\\"settings\\\":{\\\"foreground\\\":\\\"#f44747\\\"},\\\"scope\\\":\\\"token.error-token\\\"},{\\\"settings\\\":{\\\"foreground\\\":\\\"#b267e6\\\"},\\\"scope\\\":\\\"token.debug-token\\\"}],\\\"semanticTokenRules\\\":[],\\\"extensionData\\\":{\\\"_extensionId\\\":\\\"davidbwaters.macos-modern-theme\\\",\\\"_extensionIsBuiltin\\\":false,\\\"_extensionName\\\":\\\"macos-modern-theme\\\",\\\"_extensionPublisher\\\":\\\"davidbwaters\\\"},\\\"colorMap\\\":{\\\"activityBar.activeBackground\\\":\\\"#45464a57\\\",\\\"activityBar.activeBorder\\\":\\\"#128cff\\\",\\\"activityBar.activeFocusBorder\\\":\\\"#128cff\\\",\\\"activityBar.background\\\":\\\"#353333\\\",\\\"activityBar.border\\\":\\\"#101010\\\",\\\"activityBar.dropBorder\\\":\\\"#128cff\\\",\\\"activityBar.foreground\\\":\\\"#128cff\\\",\\\"activityBar.inactiveForeground\\\":\\\"#c2c0c0\\\",\\\"activityBarBadge.background\\\":\\\"#128cff\\\",\\\"badge.background\\\":\\\"#128cff\\\",\\\"badge.foreground\\\":\\\"#ffffff\\\",\\\"button.background\\\":\\\"#128cff\\\",\\\"button.foreground\\\":\\\"#ffffff\\\",\\\"button.hoverBackground\\\":\\\"#128cff\\\",\\\"descriptionForeground\\\":\\\"#777777\\\",\\\"dropdown.background\\\":\\\"#403e3e\\\",\\\"dropdown.border\\\":\\\"#bfbfbf\\\",\\\"dropdown.foreground\\\":\\\"#dedede\\\",\\\"dropdown.listBackground\\\":\\\"#ffffff\\\",\\\"editor.background\\\":\\\"#232222\\\",\\\"editor.foreground\\\":\\\"#ffffffd8\\\",\\\"editor.inactiveSelectionBackground\\\":\\\"#6e6e6e\\\",\\\"editor.lineHighlightBackground\\\":\\\"#403e3e\\\",\\\"editor.selectionBackground\\\":\\\"#6e6e6e\\\",\\\"editor.selectionHighlightBackground\\\":\\\"#6e6e6e80\\\",\\\"editor.wordHighlightBackground\\\":\\\"#6e6e6e80\\\",\\\"editor.wordHighlightStrongBackground\\\":\\\"#6e6e6e80\\\",\\\"editorError.border\\\":\\\"#ff000000\\\",\\\"editorError.foreground\\\":\\\"#e21515\\\",\\\"editorGroup.border\\\":\\\"#3e3c3c\\\",\\\"editorGroup.dropBackground\\\":\\\"#555555\\\",\\\"editorGroup.emptyBackground\\\":\\\"#403e3e\\\",\\\"editorGroup.focusedEmptyBorder\\\":\\\"#00000000\\\",\\\"editorGroupHeader.border\\\":\\\"#3e3c3c\\\",\\\"editorGroupHeader.noTabsBackground\\\":\\\"#2c2c2b\\\",\\\"editorGroupHeader.tabsBackground\\\":\\\"#2c2c2b\\\",\\\"editorGroupHeader.tabsBorder\\\":\\\"#3e3c3c\\\",\\\"editorGutter.addedBackground\\\":\\\"#4dbf57\\\",\\\"editorGutter.background\\\":\\\"#ff000000\\\",\\\"editorGutter.deletedBackground\\\":\\\"#e21515\\\",\\\"editorGutter.modifiedBackground\\\":\\\"#128cff\\\",\\\"editorHint.border\\\":\\\"#ff000000\\\",\\\"editorHint.foreground\\\":\\\"#128cff\\\",\\\"editorInfo.border\\\":\\\"#ff000000\\\",\\\"editorInfo.foreground\\\":\\\"#4dbf57\\\",\\\"editorLineNumber.activeForeground\\\":\\\"#ffffffd8\\\",\\\"editorLineNumber.foreground\\\":\\\"#747478\\\",\\\"editorOverviewRuler.addedForeground\\\":\\\"#4dbf57\\\",\\\"editorOverviewRuler.border\\\":\\\"#ff000000\\\",\\\"editorOverviewRuler.bracketMatchForeground\\\":\\\"#6e6e6e80\\\",\\\"editorOverviewRuler.deletedForeground\\\":\\\"#e21515\\\",\\\"editorOverviewRuler.errorForeground\\\":\\\"#e21515\\\",\\\"editorOverviewRuler.findMatchForeground\\\":\\\"#6e6e6e80\\\",\\\"editorOverviewRuler.infoForeground\\\":\\\"#128cff\\\",\\\"editorOverviewRuler.modifiedForeground\\\":\\\"#128cff\\\",\\\"editorOverviewRuler.rangeHighlightForeground\\\":\\\"#6e6e6e80\\\",\\\"editorOverviewRuler.selectionHighlightForeground\\\":\\\"#6e6e6e80\\\",\\\"editorOverviewRuler.warningForeground\\\":\\\"#ffc501\\\",\\\"editorOverviewRuler.wordHighlightForeground\\\":\\\"#6e6e6e80\\\",\\\"editorOverviewRuler.wordHighlightStrongForeground\\\":\\\"#6e6e6e80\\\",\\\"editorPane.background\\\":\\\"#1e1e1e\\\",\\\"editorUnnecessaryCode.opacity\\\":\\\"#000000c0\\\",\\\"editorWarning.border\\\":\\\"#ff000000\\\",\\\"editorWarning.foreground\\\":\\\"#ffc501\\\",\\\"editorWidget.background\\\":\\\"#2c2c2b\\\",\\\"focusBorder\\\":\\\"#3675a2\\\",\\\"foreground\\\":\\\"#a3a2a2\\\",\\\"input.background\\\":\\\"#403e3e\\\",\\\"input.border\\\":\\\"#515151\\\",\\\"input.foreground\\\":\\\"#dedede\\\",\\\"inputOption.activeBackground\\\":\\\"#4f4d4d\\\",\\\"list.activeSelectionBackground\\\":\\\"#464646\\\",\\\"list.focusOutline\\\":\\\"#464646\\\",\\\"list.focusBackground\\\":\\\"#464646\\\",\\\"list.hoverBackground\\\":\\\"#464646\\\",\\\"list.inactiveFocusBackground\\\":\\\"#464646\\\",\\\"list.inactiveSelectionBackground\\\":\\\"#464646\\\",\\\"minimap.background\\\":\\\"#00000079\\\",\\\"panel.background\\\":\\\"#2c2c2b\\\",\\\"panelInput.border\\\":\\\"#101010\\\",\\\"panelSection.border\\\":\\\"#101010\\\",\\\"panelSectionHeader.border\\\":\\\"#101010\\\",\\\"quickInput.background\\\":\\\"#101010\\\",\\\"quickInput.foreground\\\":\\\"#dedede\\\",\\\"selection.background\\\":\\\"#4f4d4d\\\",\\\"sideBar.background\\\":\\\"#353333\\\",\\\"sideBar.border\\\":\\\"#101010\\\",\\\"sideBar.dropBackground\\\":\\\"#353333\\\",\\\"sideBar.foreground\\\":\\\"#dedede\\\",\\\"sideBarSectionHeader.background\\\":\\\"#35333350\\\",\\\"sideBarSectionHeader.border\\\":\\\"#f9f5f500\\\",\\\"sideBarSectionHeader.foreground\\\":\\\"#b4b3b3\\\",\\\"sideBarTitle.foreground\\\":\\\"#7d7c7c\\\",\\\"statusBar.background\\\":\\\"#403e3e\\\",\\\"statusBar.border\\\":\\\"#101010\\\",\\\"statusBar.debuggingBackground\\\":\\\"#403e3e\\\",\\\"statusBar.foreground\\\":\\\"#b4b3b3\\\",\\\"statusBar.noFolderBackground\\\":\\\"#403e3e\\\",\\\"tab.activeBackground\\\":\\\"#403e3e\\\",\\\"tab.activeBorder\\\":\\\"#101010\\\",\\\"tab.activeBorderTop\\\":\\\"#403e3e\\\",\\\"tab.activeForeground\\\":\\\"#ebebeb\\\",\\\"tab.border\\\":\\\"#474646\\\",\\\"tab.inactiveBackground\\\":\\\"#2c2c2b\\\",\\\"tab.inactiveForeground\\\":\\\"#9f9f9e\\\",\\\"tab.unfocusedActiveBackground\\\":\\\"#403e3e\\\",\\\"tab.unfocusedActiveBorder\\\":\\\"#101010\\\",\\\"tab.unfocusedActiveForeground\\\":\\\"#ebebeb\\\",\\\"tab.unfocusedInactiveBackground\\\":\\\"#2c2c2b\\\",\\\"tab.unfocusedInactiveForeground\\\":\\\"#9f9f9e\\\",\\\"textBlockQuote.background\\\":\\\"#ff000000\\\",\\\"textBlockQuote.border\\\":\\\"#ff000000\\\",\\\"textCodeBlock.background\\\":\\\"#ff000000\\\",\\\"titleBar.activeBackground\\\":\\\"#403e3e\\\",\\\"titleBar.activeForeground\\\":\\\"#dedede\\\",\\\"titleBar.border\\\":\\\"#101010\\\",\\\"titleBar.inactiveBackground\\\":\\\"#403e3e\\\",\\\"titleBar.inactiveForeground\\\":\\\"#acacab\\\",\\\"widget.shadow\\\":\\\"#403e3e\\\"},\\\"watch\\\":false}\",\"workbench.panel.repl.hidden\":\"[{\\\"id\\\":\\\"workbench.panel.repl.view\\\",\\\"isHidden\\\":false}]\",\"themeUpdatedNotificationShown\":\"true\",\"src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.applicationUser\":\"{\\\"cursorCreds\\\":{\\\"cppBackendUrl\\\":\\\"https://api3.cursor.sh\\\",\\\"websiteUrl\\\":\\\"https://cursor.com\\\",\\\"backendUrl\\\":\\\"https://api2.cursor.sh\\\",\\\"authClientId\\\":\\\"KbZUR41cY7W6zRSdpSUJ7I7mLYBKOCmB\\\",\\\"authDomain\\\":\\\"prod.authentication.cursor.sh\\\",\\\"repoBackendUrl\\\":\\\"https://repo42.cursor.sh\\\",\\\"cmdkBackendUrl\\\":\\\"https://api3.cursor.sh\\\",\\\"hfUrl\\\":\\\"https://api3.cursor.sh\\\",\\\"credentialsDisplayName\\\":\\\"Prod\\\"},\\\"composerState\\\":{\\\"isComposerEnabled\\\":false,\\\"alwaysKeepComposerInBound\\\":false,\\\"shouldAutoApply\\\":true,\\\"shouldResetOnClose\\\":true,\\\"shouldChainApplies\\\":true,\\\"shouldShowButtonsAndHintsBeforeSubmit\\\":true,\\\"shouldShowButtonsAndHintsAfterSubmit\\\":true,\\\"location\\\":\\\"floating\\\"},\\\"aiFeaturesCopyPasteState\\\":{\\\"mentions\\\":[]},\\\"cppModelsState\\\":{\\\"cppModels\\\":[\\\"fast\\\"],\\\"defaultCppModel\\\":\\\"main\\\",\\\"defaultModel\\\":\\\"dsv2-rvf-07-18\\\"},\\\"autopilotFeatureEnabled\\\":false,\\\"isLinterEnabled\\\":false,\\\"bigCmdKEnabled\\\":false,\\\"aiSettings\\\":{\\\"openAIModel\\\":\\\"claude-3.5-sonnet\\\",\\\"regularChatModel\\\":\\\"claude-3.5-sonnet\\\",\\\"cmdKModel\\\":\\\"claude-3.5-sonnet\\\",\\\"terminalCmdKModel\\\":\\\"claude-3.5-sonnet\\\",\\\"composerModel\\\":\\\"claude-3.5-sonnet\\\",\\\"privateFTOpenAIModel\\\":null,\\\"longContextOpenAIModel\\\":\\\"claude-3-5-sonnet-200k\\\",\\\"teamIds\\\":[],\\\"modelOverrideEnabled\\\":[\\\"cursor-small\\\",\\\"gpt-4o\\\",\\\"claude-3.5-sonnet\\\"],\\\"modelOverrideDisabled\\\":[\\\"gpt-4\\\"]},\\\"authenticationSettings\\\":{\\\"githubLoggedIn\\\":false},\\\"docState\\\":{\\\"visibleDocs\\\":[],\\\"usableDocs\\\":[],\\\"previosulyUsedDocs\\\":[]},\\\"lastUpdateHiddenTimeInUnixSeconds\\\":0,\\\"lintRules\\\":\\\"\\\",\\\"bubbleTimesLeft\\\":0,\\\"showAgentActionDebugger\\\":false,\\\"cmdLineHookState\\\":{\\\"ignored\\\":true,\\\"timesShown\\\":0},\\\"agentDebuggerState\\\":{\\\"priomptLiveMode\\\":false,\\\"isRecordingTasks\\\":true},\\\"showLinterDebugger\\\":false,\\\"linterDebuggerState\\\":{\\\"specificRules\\\":true,\\\"compileErrors\\\":false,\\\"changeBehavior\\\":true,\\\"matchCode\\\":false,\\\"relevance\\\":true,\\\"userAwareness\\\":true},\\\"contextAstPersistentState\\\":{\\\"enabled\\\":false},\\\"cmdkDiffHistoryEnabled\\\":false,\\\"lintSettings\\\":{\\\"forceEnableDiscriminators\\\":[],\\\"forceDisableDiscriminators\\\":[],\\\"forceEnableGenerators\\\":[],\\\"forceDisableGenerators\\\":[]},\\\"lastUpgradeToProNotificationTime\\\":0,\\\"hallucinatedFunctionsPersistentState\\\":{},\\\"haveNotSeen\\\":{\\\"chat\\\":false,\\\"submit\\\":false,\\\"context\\\":true},\\\"newUserData\\\":{\\\"toolUsageCount\\\":{\\\"plainChat\\\":2,\\\"contextChat\\\":0,\\\"intentChat\\\":0}},\\\"azureState\\\":{\\\"useAzure\\\":false},\\\"interpreterModeSettings\\\":{\\\"interpreterModeByDefault\\\":false},\\\"cppFireOnEveryCursorChange\\\":false,\\\"personalDocs\\\":[],\\\"fastCppEnabled\\\":false,\\\"contextGraphEnabled\\\":false,\\\"indexRepository\\\":true,\\\"haveNotImportedFromVSC\\\":false,\\\"shouldAutoParseCmdKLinks\\\":false,\\\"SPECIAL_KEY_lastUpdatedTimeInUnixSeconds\\\":1722438827.05,\\\"aiHyperModeUXType\\\":\\\"auto-accept\\\",\\\"aiPreviewsEnabled\\\":true,\\\"aiPreviewSettings\\\":{\\\"enabledFeatures\\\":{\\\"summary\\\":true,\\\"relatedFiles\\\":true,\\\"relatedCommits\\\":true},\\\"summary\\\":{\\\"isExpanded\\\":true},\\\"relatedFiles\\\":{\\\"isExpanded\\\":true},\\\"relatedCommits\\\":{\\\"isExpanded\\\":false}},\\\"chatFadeInAnimationEnabled\\\":false,\\\"isFileSyncEnabled\\\":false,\\\"isAiReviewInputExpanded\\\":true,\\\"useFastApplyModel\\\":false,\\\"fastApplyModelType\\\":1,\\\"explicitlyEnableSemanticSearch\\\":false,\\\"aiCursorHelpEnabled\\\":true,\\\"showAllCmdKContexts\\\":false,\\\"aiDocAgentEnabled\\\":false,\\\"markdownTestString\\\":\\\"\\\",\\\"cppInPeek\\\":true,\\\"cursorPredictionUIExperiments\\\":[],\\\"isCursorSmallEnabledForTheFirstTime\\\":true,\\\"oneTimeSettings\\\":{\\\"shouldDisableGithubCopilot\\\":false,\\\"shouldMigrateFromGpt4ToGpt4o\\\":false,\\\"shouldMigrateFromGpt4oToClaudeSonnet\\\":false,\\\"didMigrateFromGpt4oToClaudeSonnet\\\":true,\\\"didMigrateBackFromClaudeSonnetToGpt4o\\\":false},\\\"aiReviewPersistentStorage\\\":{\\\"customInstructions\\\":\\\"\\\"},\\\"indexingState\\\":{\\\"lastAskedToIndexTime\\\":0},\\\"shouldNotTryToGetThemToNoticeCpp\\\":true,\\\"checklistState\\\":{\\\"shouldSeeOnboardingChecklist\\\":false,\\\"doneCommandK\\\":true,\\\"doneAddingCodeSelection\\\":true,\\\"doneCommandL\\\":true},\\\"havePerformedSettingsServiceMigration\\\":true,\\\"cppHasLoadedConfigFromCopilot\\\":true,\\\"hasDisabledErrorLensForAiLinter\\\":true,\\\"removeAIReview\\\":true,\\\"availableDefaultModels2\\\":[{\\\"name\\\":\\\"gpt-4\\\",\\\"defaultOn\\\":false},{\\\"name\\\":\\\"gpt-4o\\\",\\\"defaultOn\\\":true},{\\\"name\\\":\\\"claude-3-opus\\\",\\\"defaultOn\\\":false},{\\\"name\\\":\\\"cursor-small\\\",\\\"defaultOn\\\":true},{\\\"name\\\":\\\"gpt-3.5-turbo\\\",\\\"defaultOn\\\":true},{\\\"name\\\":\\\"gpt-4-turbo-2024-04-09\\\",\\\"defaultOn\\\":false},{\\\"name\\\":\\\"gpt-4o-128k\\\",\\\"defaultOn\\\":true,\\\"isLongContextOnly\\\":true},{\\\"name\\\":\\\"gemini-1.5-flash-500k\\\",\\\"defaultOn\\\":true,\\\"isLongContextOnly\\\":true},{\\\"name\\\":\\\"claude-3-haiku-200k\\\",\\\"defaultOn\\\":true,\\\"isLongContextOnly\\\":true},{\\\"name\\\":\\\"claude-3-5-sonnet-200k\\\",\\\"defaultOn\\\":true,\\\"isLongContextOnly\\\":true},{\\\"name\\\":\\\"claude-3.5-sonnet\\\",\\\"defaultOn\\\":true,\\\"isLongContextOnly\\\":false},{\\\"name\\\":\\\"gpt-4o-mini\\\",\\\"defaultOn\\\":true,\\\"isLongContextOnly\\\":false}],\\\"isCursorFastNameSwitched\\\":true,\\\"cursorPredictionState\\\":{\\\"modelConfigs\\\":[{\\\"name\\\":\\\"legacy\\\",\\\"radius\\\":80},{\\\"name\\\":\\\"default\\\",\\\"radius\\\":50}],\\\"defaultModel\\\":\\\"default\\\"},\\\"SPECIAL_KEY_id\\\":\\\"1d2cca5a-7d5c-4054-8fb4-180a4e0d6ecb\\\",\\\"noStorageMode\\\":true,\\\"selectedPrivacyForOnboarding\\\":true,\\\"cppEnabled\\\":true,\\\"useOpenAIKey\\\":false,\\\"cppConfig\\\":{\\\"heuristics\\\":[4],\\\"excludeRecentlyViewedFilesPatterns\\\":[\\\".env\\\",\\\".production\\\",\\\".pem\\\",\\\".cursor-retrieval.\\\",\\\".cursor-always-local.\\\",\\\".svg\\\",\\\".lock\\\",\\\".jsonl\\\",\\\".csv\\\",\\\".tsv\\\",\\\"Copilot++\\\"],\\\"enableRvfTracking\\\":true,\\\"aboveRadius\\\":1,\\\"belowRadius\\\":2,\\\"isOn\\\":true,\\\"isGhostText\\\":true,\\\"shouldLetUserEnableCppEvenIfNotPro\\\":true},\\\"cmdKGenerationConfigs\\\":[{\\\"modelDetails\\\":{\\\"modelName\\\":\\\"claude-3.5-sonnet\\\",\\\"azureState\\\":{\\\"apiKey\\\":\\\"\\\",\\\"baseUrl\\\":\\\"\\\",\\\"deployment\\\":\\\"\\\",\\\"useAzure\\\":false}},\\\"generationUUID\\\":\\\"c2fcfd2d-f2b3-4b62-8f2e-327c8381d286\\\"}],\\\"docsNudge\\\":{\\\"upUntilCounter\\\":2,\\\"shownNudges\\\":0}}\",\"workbench.panel.alignment\":\"center\",\"extensionsIdentifiers/disabled\":\"[]\",\"workbench.view.extensions.state.hidden\":\"[{\\\"id\\\":\\\"workbench.views.extensions.installed\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.searchOutdated\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.workspaceRecommendations\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.popular\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.searchRecentlyUpdated\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.otherRecommendations\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"extensions.recommendedList\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.enabled\\\",\\\"isHidden\\\":true},{\\\"id\\\":\\\"workbench.views.extensions.disabled\\\",\\\"isHidden\\\":true},{\\\"id\\\":\\\"workbench.views.extensions.marketplace\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.searchInstalled\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.searchEnabled\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.searchDisabled\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.searchBuiltin\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.searchWorkspaceUnsupported\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.builtinFeatureExtensions\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.builtinThemeExtensions\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.builtinProgrammingLanguageExtensions\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.untrustedUnsupportedExtensions\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.untrustedPartiallySupportedExtensions\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.virtualUnsupportedExtensions\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.virtualPartiallySupportedExtensions\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.views.extensions.deprecatedExtensions\\\",\\\"isHidden\\\":false}]\",\"fileBasedRecommendations/promptedRecommendations\":\"{\\\"go\\\":[\\\"golang.go\\\"]}\",\"workbench.view.extension.test.state.hidden\":\"[{\\\"id\\\":\\\"workbench.view.testing\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"workbench.view.testCoverage\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"go.test.profile\\\",\\\"isHidden\\\":false}]\",\"workbench.view.extension.ansible-explorer.state.hidden\":\"[{\\\"id\\\":\\\"ansible-content-creator\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"lightspeed-explorer-webview\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"lightspeed-feedback-webview\\\",\\\"isHidden\\\":false}]\",\"workbench.view.extension.json-views.state.hidden\":\"[{\\\"id\\\":\\\"jsonOutline\\\",\\\"isHidden\\\":false}]\",\"workbench.view.extension.gitlens.state.hidden\":\"[{\\\"id\\\":\\\"gitlens.views.home\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.drafts\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.workspaces\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.account\\\",\\\"isHidden\\\":false}]\",\"workbench.view.extension.gitlensInspect.state.hidden\":\"[{\\\"id\\\":\\\"gitlens.views.commitDetails\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.pullRequest\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.lineHistory\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.fileHistory\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.timeline\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"gitlens.views.searchAndCompare\\\",\\\"isHidden\\\":false}]\",\"workbench.view.extension.kubernetesView.state.hidden\":\"[{\\\"id\\\":\\\"extension.vsKubernetesExplorer\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"extension.vsKubernetesHelmRepoExplorer\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"kubernetes.cloudExplorer\\\",\\\"isHidden\\\":false}]\",\"workbench.view.extension.package-explorer.state.hidden\":\"[{\\\"id\\\":\\\"workspaceEnvironments\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"pythonEnvironments\\\",\\\"isHidden\\\":false}]\",\"userDataProfiles.state.hidden\":\"[{\\\"id\\\":\\\"workbench.views.profiles.export.preview\\\",\\\"isHidden\\\":false}]\",\"commandPalette.mru.cache\":\"{\\\"usesLRU\\\":true,\\\"entries\\\":[{\\\"key\\\":\\\"workbench.action.reloadWindow\\\",\\\"value\\\":1}]}\",\"commandPalette.mru.counter\":\"2\",\"workbench.view.extension.project-manager.state.hidden\":\"[{\\\"id\\\":\\\"projectsExplorerFavorites\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"projectsExplorerGit\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"projectsExplorerSVN\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"projectsExplorerAny\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"projectsExplorerMercurial\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"projectsExplorerVSCode\\\",\\\"isHidden\\\":false},{\\\"id\\\":\\\"projectManagerHelpAndFeedback\\\",\\\"isHidden\\\":false}]\"}}"}
+{
+  "Ansi 7 Color (Light)" : {
+    "Red Component" : 0.66274511814117432,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.83921569585800171,
+    "Alpha Component" : 1,
+    "Green Component" : 0.69411766529083252
+  },
+  "Ansi 15 Color (Light)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Ansi 2 Color (Light)" : {
+    "Red Component" : 0.61960786581039429,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.41568627953529358,
+    "Alpha Component" : 1,
+    "Green Component" : 0.80784314870834351
+  },
+  "Bold Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "Ansi 1 Color (Dark)" : {
+    "Red Component" : 0.9686274528503418,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.55686277151107788,
+    "Alpha Component" : 1,
+    "Green Component" : 0.46274510025978088
+  },
+  "Use Bright Bold" : true,
+  "Ansi 9 Color (Light)" : {
+    "Red Component" : 0.9686274528503418,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.55686277151107788,
+    "Alpha Component" : 1,
+    "Green Component" : 0.46274510025978088
+  },
+  "Ansi 8 Color (Dark)" : {
+    "Red Component" : 0.25490197539329529,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40784314274787903,
+    "Alpha Component" : 1,
+    "Green Component" : 0.28235295414924622
+  },
+  "Background Color" : {
+    "Red Component" : 0.12156862765550613,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.14117647707462311,
+    "Alpha Component" : 1,
+    "Green Component" : 0.12156862765550613
+  },
+  "Columns" : 80,
+  "Ansi 8 Color" : {
+    "Red Component" : 0.51372551918029785,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.56862747669219971,
+    "Alpha Component" : 1,
+    "Green Component" : 0.5372549295425415
+  },
+  "Right Option Key Sends" : 0,
+  "Ansi 4 Color (Light)" : {
+    "Red Component" : 0.47843137383460999,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.63529413938522339
+  },
+  "Blinking Cursor" : false,
+  "Selected Text Color (Light)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Selected Text Color (Dark)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Ansi 3 Color (Dark)" : {
+    "Red Component" : 0.87843137979507446,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40784314274787903,
+    "Alpha Component" : 1,
+    "Green Component" : 0.68627452850341797
+  },
+  "Keyboard Map" : {
+
+  },
+  "Visual Bell" : true,
+  "Only The Default BG Color Uses Transparency" : true,
+  "Cursor Text Color" : {
+    "Red Component" : 0.12156862765550613,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.14117647707462311,
+    "Alpha Component" : 1,
+    "Green Component" : 0.12156862765550613
+  },
+  "Scrollback Lines" : 1000,
+  "Selection Color (Light)" : {
+    "Red Component" : 0.21176470816135406,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.50980395078659058,
+    "Alpha Component" : 1,
+    "Green Component" : 0.29019609093666077
+  },
+  "Ansi 0 Color" : {
+    "Red Component" : 0.26274511218070984,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.29411765933036804,
+    "Alpha Component" : 1,
+    "Green Component" : 0.27058824896812439
+  },
+  "Match Background Color (Dark)" : {
+    "Red Component" : 0.99697142839431763,
+    "Color Space" : "P3",
+    "Blue Component" : 0.32116127014160156,
+    "Alpha Component" : 1,
+    "Green Component" : 0.98600882291793823
+  },
+  "Ansi 11 Color (Light)" : {
+    "Red Component" : 0.87843137979507446,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40784314274787903,
+    "Alpha Component" : 1,
+    "Green Component" : 0.68627452850341797
+  },
+  "Ansi 5 Color (Dark)" : {
+    "Red Component" : 0.73333334922790527,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.60392159223556519
+  },
+  "Cursor Text Color (Light)" : {
+    "Red Component" : 0.11372549086809158,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.18431372940540314,
+    "Alpha Component" : 1,
+    "Green Component" : 0.12549020349979401
+  },
+  "Silence Bell" : false,
+  "Rows" : 25,
+  "Draw Powerline Glyphs" : true,
+  "Guid" : "4B5480AA-9FED-4EC5-9200-C1C5786CBD4A",
+  "Ansi 14 Color (Dark)" : {
+    "Red Component" : 0.49019607901573181,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.81176471710205078
+  },
+  "Ansi 15 Color (Dark)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Ansi 0 Color (Dark)" : {
+    "Red Component" : 0.11372549086809158,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.18431372940540314,
+    "Alpha Component" : 1,
+    "Green Component" : 0.12549020349979401
+  },
+  "Ambiguous Double Width" : false,
+  "Option Key Sends" : 0,
+  "Ansi 3 Color" : {
+    "Red Component" : 0.85098040103912354,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40784314274787903,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7764706015586853
+  },
+  "Window Type" : 0,
+  "BM Growl" : true,
+  "Prompt Before Closing 2" : false,
+  "Command" : "",
+  "Selected Text Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "Ansi 14 Color (Light)" : {
+    "Red Component" : 0.49019607901573181,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.81176471710205078
+  },
+  "Cursor Guide Color (Dark)" : {
+    "Red Component" : 0.70213186740875244,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 0.25,
+    "Green Component" : 0.9268307089805603
+  },
+  "ASCII Ligatures" : true,
+  "Send Code When Idle" : false,
+  "Ansi 6 Color" : {
+    "Red Component" : 0.80392158031463623,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.63137257099151611
+  },
+  "Jobs to Ignore" : [
+    "rlogin",
+    "ssh",
+    "slogin",
+    "telnet"
+  ],
+  "Badge Color (Dark)" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 0.5,
+    "Green Component" : 0.1491314172744751
+  },
+  "Cursor Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "Vertical Spacing" : 1,
+  "Disable Window Resizing" : false,
+  "Close Sessions On End" : true,
+  "Selection Color (Dark)" : {
+    "Red Component" : 0.21176470816135406,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.50980395078659058,
+    "Alpha Component" : 1,
+    "Green Component" : 0.29019609093666077
+  },
+  "Default Bookmark" : "No",
+  "Foreground Color (Light)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Custom Command" : "No",
+  "Background Color (Dark)" : {
+    "Red Component" : 0.14117647707462311,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.23137255012989044,
+    "Alpha Component" : 1,
+    "Green Component" : 0.15686275064945221
+  },
+  "Ansi 9 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.47843137383460999,
+    "Alpha Component" : 1,
+    "Green Component" : 0.54117649793624878
+  },
+  "Ansi 14 Color" : {
+    "Red Component" : 0.89803922176361084,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.81176471710205078
+  },
+  "Flashing Bell" : false,
+  "Use Italic Font" : true,
+  "Ansi 13 Color (Dark)" : {
+    "Red Component" : 0.73333334922790527,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.60392159223556519
+  },
+  "Minimum Contrast" : 0,
+  "Cursor Guide Color (Light)" : {
+    "Red Component" : 0.70213186740875244,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 0.25,
+    "Green Component" : 0.9268307089805603
+  },
+  "Ansi 12 Color" : {
+    "Red Component" : 0.41960784792900085,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.87450981140136719
+  },
+  "Ansi 10 Color (Light)" : {
+    "Red Component" : 0.61960786581039429,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.41568627953529358,
+    "Alpha Component" : 1,
+    "Green Component" : 0.80784314870834351
+  },
+  "Non-ASCII Anti Aliased" : true,
+  "Ansi 10 Color" : {
+    "Red Component" : 0.69411766529083252,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.92156863212585449,
+    "Alpha Component" : 1,
+    "Green Component" : 0.98039215803146362
+  },
+  "Foreground Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "Link Color (Light)" : {
+    "Red Component" : 0.45098039507865906,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.7921568751335144,
+    "Alpha Component" : 1,
+    "Green Component" : 0.85490196943283081
+  },
+  "Description" : "Default",
+  "Match Background Color" : {
+    "Red Component" : 0.99697142839431763,
+    "Color Space" : "P3",
+    "Blue Component" : 0.32116127014160156,
+    "Alpha Component" : 1,
+    "Green Component" : 0.98600882291793823
+  },
+  "Ansi 7 Color (Dark)" : {
+    "Red Component" : 0.66274511814117432,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.83921569585800171,
+    "Alpha Component" : 1,
+    "Green Component" : 0.69411766529083252
+  },
+  "Sync Title" : false,
+  "Ansi 1 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.47843137383460999,
+    "Alpha Component" : 1,
+    "Green Component" : 0.54117649793624878
+  },
+  "Name" : "Default",
+  "Transparency" : 0.32000000000000001,
+  "Horizontal Spacing" : 1,
+  "Cursor Color (Dark)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Ansi 2 Color (Dark)" : {
+    "Red Component" : 0.61960786581039429,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.41568627953529358,
+    "Alpha Component" : 1,
+    "Green Component" : 0.80784314870834351
+  },
+  "Ansi 9 Color (Dark)" : {
+    "Red Component" : 0.9686274528503418,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.55686277151107788,
+    "Alpha Component" : 1,
+    "Green Component" : 0.46274510025978088
+  },
+  "Badge Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 0.5,
+    "Green Component" : 0.1491314172744751
+  },
+  "Ansi 13 Color (Light)" : {
+    "Red Component" : 0.73333334922790527,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.60392159223556519
+  },
+  "Idle Code" : 0,
+  "Ansi 4 Color" : {
+    "Red Component" : 0.30588236451148987,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.90196079015731812,
+    "Alpha Component" : 1,
+    "Green Component" : 0.76862746477127075
+  },
+  "Bold Color (Dark)" : {
+    "Red Component" : 0.93333333730697632,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.93333333730697632,
+    "Alpha Component" : 1,
+    "Green Component" : 0.93333333730697632
+  },
+  "Screen" : -1,
+  "Ansi 4 Color (Dark)" : {
+    "Red Component" : 0.47843137383460999,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.63529413938522339
+  },
+  "Cursor Text Color (Dark)" : {
+    "Red Component" : 0.11372549086809158,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.18431372940540314,
+    "Alpha Component" : 1,
+    "Green Component" : 0.12549020349979401
+  },
+  "Selection Color" : {
+    "Red Component" : 0.26274511218070984,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.29411765933036804,
+    "Alpha Component" : 1,
+    "Green Component" : 0.27058824896812439
+  },
+  "Use Non-ASCII Font" : false,
+  "Badge Color (Light)" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0,
+    "Alpha Component" : 0.5,
+    "Green Component" : 0.1491314172744751
+  },
+  "Character Encoding" : 4,
+  "Ansi 11 Color (Dark)" : {
+    "Red Component" : 0.87843137979507446,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40784314274787903,
+    "Alpha Component" : 1,
+    "Green Component" : 0.68627452850341797
+  },
+  "Bold Color (Light)" : {
+    "Red Component" : 0.93333333730697632,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.93333333730697632,
+    "Alpha Component" : 1,
+    "Green Component" : 0.93333333730697632
+  },
+  "Ansi 12 Color (Dark)" : {
+    "Red Component" : 0.47843137383460999,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.63529413938522339
+  },
+  "Ansi 7 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "Non Ascii Font" : "Monaco 12",
+  "Ansi 6 Color (Dark)" : {
+    "Red Component" : 0.49019607901573181,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.81176471710205078
+  },
+  "Cursor Guide Color" : {
+    "Red Component" : 0.70213186740875244,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 0.25,
+    "Green Component" : 0.9268307089805603
+  },
+  "Custom Directory" : "No",
+  "Working Directory" : "\/Users\/lucas",
+  "ASCII Anti Aliased" : true,
+  "Shortcut" : "",
+  "Mouse Reporting" : true,
+  "Tags" : [
+
+  ],
+  "Blur Radius" : 15.579347098214285,
+  "Ansi 6 Color (Light)" : {
+    "Red Component" : 0.49019607901573181,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.81176471710205078
+  },
+  "Match Background Color (Light)" : {
+    "Red Component" : 0.99697142839431763,
+    "Color Space" : "P3",
+    "Blue Component" : 0.32116127014160156,
+    "Alpha Component" : 1,
+    "Green Component" : 0.98600882291793823
+  },
+  "Background Image Location" : "",
+  "Ansi 1 Color (Light)" : {
+    "Red Component" : 0.9686274528503418,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.55686277151107788,
+    "Alpha Component" : 1,
+    "Green Component" : 0.46274510025978088
+  },
+  "Use Bold Font" : true,
+  "Ansi 8 Color (Light)" : {
+    "Red Component" : 0.25490197539329529,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40784314274787903,
+    "Alpha Component" : 1,
+    "Green Component" : 0.28235295414924622
+  },
+  "Ansi 2 Color" : {
+    "Red Component" : 0.51372551918029785,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.73725491762161255,
+    "Alpha Component" : 1,
+    "Green Component" : 0.78823530673980713
+  },
+  "Normal Font" : "MesloLGS-NF-Regular 13",
+  "Unlimited Scrollback" : false,
+  "Ansi 12 Color (Light)" : {
+    "Red Component" : 0.47843137383460999,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.63529413938522339
+  },
+  "Ansi 10 Color (Dark)" : {
+    "Red Component" : 0.61960786581039429,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.41568627953529358,
+    "Alpha Component" : 1,
+    "Green Component" : 0.80784314870834351
+  },
+  "Ansi 3 Color (Light)" : {
+    "Red Component" : 0.87843137979507446,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.40784314274787903,
+    "Alpha Component" : 1,
+    "Green Component" : 0.68627452850341797
+  },
+  "Cursor Color (Light)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Ansi 15 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 1
+  },
+  "Blur" : true,
+  "Use Separate Colors for Light and Dark Mode" : false,
+  "Background Color (Light)" : {
+    "Red Component" : 0.14117647707462311,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.23137255012989044,
+    "Alpha Component" : 1,
+    "Green Component" : 0.15686275064945221
+  },
+  "Ansi 13 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.72156864404678345,
+    "Alpha Component" : 1,
+    "Green Component" : 0.5215686559677124
+  },
+  "Terminal Type" : "xterm-256color",
+  "Ansi 5 Color (Light)" : {
+    "Red Component" : 0.73333334922790527,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.9686274528503418,
+    "Alpha Component" : 1,
+    "Green Component" : 0.60392159223556519
+  },
+  "Foreground Color (Dark)" : {
+    "Red Component" : 0.75294119119644165,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.96078431606292725,
+    "Alpha Component" : 1,
+    "Green Component" : 0.7921568751335144
+  },
+  "Link Color" : {
+    "Red Component" : 0.41960784792900085,
+    "Color Space" : "sRGB",
+    "Blue Component" : 1,
+    "Alpha Component" : 1,
+    "Green Component" : 0.87450981140136719
+  },
+  "Link Color (Dark)" : {
+    "Red Component" : 0.45098039507865906,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.7921568751335144,
+    "Alpha Component" : 1,
+    "Green Component" : 0.85490196943283081
+  },
+  "Ansi 11 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.30980393290519714,
+    "Alpha Component" : 1,
+    "Green Component" : 0.63137257099151611
+  },
+  "Ansi 5 Color" : {
+    "Red Component" : 1,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.72156864404678345,
+    "Alpha Component" : 1,
+    "Green Component" : 0.5215686559677124
+  },
+  "Ansi 0 Color (Light)" : {
+    "Red Component" : 0.11372549086809158,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.18431372940540314,
+    "Alpha Component" : 1,
+    "Green Component" : 0.12549020349979401
+  }
+}
