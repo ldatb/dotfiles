@@ -15,6 +15,7 @@ alias rmdir='rmdir -v'
 alias g='git'
 alias gs='git status'
 alias gd='git diff'
+alias gbd='git branch -D'
 alias ga='git add'
 alias gaa='git add --all'
 alias gc='git commit'
@@ -26,6 +27,7 @@ alias gpf='git push -f origin $(git rev-parse --abbrev-ref HEAD)'
 alias gco='git checkout'
 alias gm='git checkout main && git pull'
 alias grom='git rebase origin/main'
+alias git-purge-branches='git branch | grep -v "main" | xargs git branch -D'
 
 # tmux
 alias t='tmux'
@@ -36,21 +38,66 @@ alias td='tmux detach'
 alias tls='tmux ls'
 alias tk='tmux kill-session -t'
 
-# neovim
-alias nvim='/opt/nvim/nvim'
-alias nv='/opt/nvim/nvim'
-
 # less
 alias less='less --raw-control-chars'
 
 # diff
 alias diff='git diff --no-index'
 
-# minikube
-alias kubectl="minikube kubectl --"
+# lunarvim
+alias lvim='/Users/lucas/.local/bin/lvim'
+alias lv='/Users/lucas/.local/bin/lvim'
 
 # navigation
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
+# Workspace
+workspace() {
+  local base_dir="$HOME/Documents/Workspace"
+  local target
+
+  target=$(find "$base_dir" -maxdepth 10 -type d -name ".git" \
+    | sed 's|/\.git||' \
+    | sed "s|$base_dir/||" \
+    | sort -u \
+    | fzf --prompt="Select workspace: ")
+
+  if [[ -n "$target" ]]; then
+    cd "$base_dir/$target" || return
+    echo "Switched to $base_dir/$target"
+  fi
+}
+
+# Kubernetes
+alias k='kubectl'
+alias k-gp='kubectl get pods'
+alias k-dp='kubectl describe pod'
+
+# AWS
+alias aws-ssh='function _aws_ssh(){ \
+  ip="$1"; \
+  user="${2:-ec2-user}"; \
+  dns="ec2-${ip//./-}.compute-1.amazonaws.com"; \
+  ssh -i ~/.ssh/personal-aws.pem "$user@$dns"; \
+}; _aws_ssh'
+
+aws-nuke-bucket() {
+  local BUCKET="$1"
+  if [ -z "$BUCKET" ]; then
+    echo "Usage: nuke_bucket <bucket-name>"
+    return 1
+  fi
+  echo "Emptying all versions from bucket: $BUCKET"
+
+  aws s3api list-object-versions --bucket "$BUCKET" --output json \
+  | jq -r '.Versions[]?, .DeleteMarkers[]? | [.Key, .VersionId] | @tsv' \
+  | while IFS=$'\t' read -r key version_id; do
+    echo "Deleting: $key (version: $version_id)"
+    aws s3api delete-object --bucket "$BUCKET" --key "$key" --version-id "$version_id" --no-cli-pager
+  done
+
+  echo "Deleting bucket: $BUCKET"
+  aws s3 rb "s3://$BUCKET" --no-cli-pager
+}
