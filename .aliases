@@ -26,7 +26,22 @@ alias gp='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpf='git push -f origin $(git rev-parse --abbrev-ref HEAD)'
 alias gco='git checkout'
 alias gm='git checkout main && git pull'
-alias grom='git rebase origin/main'
+alias gfo='git fetch origin'
+alias gfom='git fetch origin main'
+alias grom='git rebase origin main'
+gfp() {
+    echo "Recent commits:"
+    git log --oneline --no-merges -10 | nl -v1
+    echo ""
+
+    if [ -z "$1" ]; then
+        read "commits?Number of commits to format-patch (1 = most recent): "
+    else
+        commits=$1
+    fi
+
+    git format-patch -n HEAD~$commits
+}
 alias git-purge-branches='git branch | grep -v "main" | xargs git branch -D'
 
 # tmux
@@ -58,7 +73,7 @@ workspace() {
   local base_dir="$HOME/Documents/Workspace"
   local target
 
-  target=$(find "$base_dir" -maxdepth 10 -type d -name ".git" \
+  target=$(find "$base_dir" -maxdepth 5 -type d -name ".git" \
     | sed 's|/\.git||' \
     | sed "s|$base_dir/||" \
     | sort -u \
