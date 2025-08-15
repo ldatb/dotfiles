@@ -70,7 +70,7 @@ alias ....='cd ../../..'
 
 # Workspace
 workspace() {
-  local base_dir="$HOME/Documents/Workspace"
+  local base_dir="$HOME/Workspace"
   local target
 
   target=$(find "$base_dir" -maxdepth 5 -type d -name ".git" \
